@@ -18,7 +18,7 @@ get_header();
                       <source src="<?= get_stylesheet_directory_uri(); ?>/libs/video/output-pipes.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div class="title title-left text-danger top-lg-0">stainless steell </div>
+                  <div class="title title-left text-danger top-lg-0">stainless steel </div>
                   <div class="title title-right text-danger">pipes</div>
                   <div class="desc">Best world prices <br>container sales only <br>Exclusive price directly from factories   </div>
                   <div class="button-scroll d-xl-block d-none"> <a class="py-3 pe-2" href="#second-section">scroll</a>
