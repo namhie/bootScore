@@ -114,6 +114,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	--scrollbarHeight: 5px;
 	--scrollbarBorder: 3px solid transparent;
 	--scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
+	--swiper-theme-color: #DD3C3C;
 }
 
 .wrapper {
@@ -740,7 +741,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #third-section .swiper-button-next,#third-section .swiper-button-prev {
 	top: var(--swiper-navigation-top-offset,90%);
-	color: var(--bs-danger);
 	background-color: rgba(39,38,38,.5098039216);
 	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
