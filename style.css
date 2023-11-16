@@ -34,7 +34,7 @@ body {
 	font-size: 1rem;
 	line-height: 1.65;
 	overflow-x: hidden;
-	cursor: url(/wp-content/themes/bootscore-main/img/svg/cursor-default.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-default.svg),auto!important;
 }
 
 .btn,a,button {
@@ -43,7 +43,7 @@ body {
 	-webkit-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
-	cursor: url(/wp-content/themes/bootscore-main/img/svg/cursor-hover.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 .wrapper {
@@ -87,19 +87,19 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 @font-face {
-	font-family:Aneliza;font-display:swap;src:url(/wp-content/themes/bootscore-main/fonts/Aneliza-Bold.woff2) format("woff2"),url(/wp-content/themes/bootscore-main/fonts/Aneliza-Bold.woff) format("woff");font-weight:700;font-style:normal;
+	font-family:Aneliza;font-display:swap;src:url(/wp-content/themes/bootScore/fonts/Aneliza-Bold.woff2) format("woff2"),url(/wp-content/themes/bootScore/fonts/Aneliza-Bold.woff) format("woff");font-weight:700;font-style:normal;
 }
 
 @font-face {
-	font-family:Aneliza;font-display:swap;src:url(/wp-content/themes/bootscore-main/fonts/Aneliza-Medium.woff2) format("woff2"),url(/wp-content/themes/bootscore-main/fonts/Aneliza-Medium.woff) format("woff");font-weight:500;font-style:normal;
+	font-family:Aneliza;font-display:swap;src:url(/wp-content/themes/bootScore/fonts/Aneliza-Medium.woff2) format("woff2"),url(/wp-content/themes/bootScore/fonts/Aneliza-Medium.woff) format("woff");font-weight:500;font-style:normal;
 }
 
 @font-face {
-	font-family:Aneliza;font-display:swap;src:url(/wp-content/themes/bootscore-main/fonts/Aneliza-Regular.woff2) format("woff2"),url(/wp-content/themes/bootscore-main/fonts/Aneliza-Regular.woff) format("woff");font-weight:400;font-style:normal;
+	font-family:Aneliza;font-display:swap;src:url(/wp-content/themes/bootScore/fonts/Aneliza-Regular.woff2) format("woff2"),url(/wp-content/themes/bootScore/fonts/Aneliza-Regular.woff) format("woff");font-weight:400;font-style:normal;
 }
 
 @font-face {
-	font-family:Wadik;font-display:swap;src:url(/wp-content/themes/bootscore-main/fonts/Wadik-Bold.woff2) format("woff2"),url(/wp-content/themes/bootscore-main/fonts/Wadik-Bold.woff) format("woff");font-weight:700;font-style:normal;
+	font-family:Wadik;font-display:swap;src:url(/wp-content/themes/bootScore/fonts/Wadik-Bold.woff2) format("woff2"),url(/wp-content/themes/bootScore/fonts/Wadik-Bold.woff) format("woff");font-weight:700;font-style:normal;
 }
 
 :root {
@@ -256,7 +256,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 .navbar-toggler-icon {
-	background-image: url(/wp-content/themes/bootscore-main/img/svg/menu-toggler.svg);
+	background-image: url(/wp-content/themes/bootScore/img/svg/menu-toggler.svg);
 }
 
 .text-success {
@@ -350,7 +350,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 .offcanvas-header .btn {
-	cursor: url(/wp-content/themes/bootscore-main/img/svg/cursor-hover.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 .offcanvas-backdrop {
@@ -475,14 +475,14 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	-webkit-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
-	cursor: url(/wp-content/themes/bootscore-main/img/svg/cursor-hover.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 .button-scroll a,.button-scroll span {
 	font-family: Wadik,sans-serif;
 	font-size: .888rem;
 	color: var(--secondary);
-	cursor: url(/wp-content/themes/bootscore-main/img/svg/cursor-hover.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 .button-scroll .btn {
@@ -742,7 +742,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	top: var(--swiper-navigation-top-offset,90%);
 	color: var(--bs-danger);
 	background-color: rgba(39,38,38,.5098039216);
-	cursor: url(/wp-content/themes/bootscore-main/img/svg/cursor-hover.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 #third-section .swiper-button-next::after,#third-section .swiper-button-prev::after {
