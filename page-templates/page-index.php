@@ -211,7 +211,6 @@ get_header();
                 <ul class="list-group align-items-end position-absolute mt-3"> 
                   <li class="list-group-item reveal">have been exporting for many years from China pipes in containers</li>
                   <li class="list-group-item reveal">invest in production expansion</li>
-                  <li class="list-group-item reveal">work with several factories</li>
                   <li class="list-group-item reveal">have exclusive prices</li>
                 </ul>
               </div>
