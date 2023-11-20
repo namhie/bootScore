@@ -1565,11 +1565,16 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.title-right {
-		top: calc(100vh - 25rem);
+		top: calc(100vh - 22rem);
+	}
+
+	#first-section {
+		height: calc(100vh - 8rem);
+		margin-bottom: 2rem;
 	}
 
 	.main {
-		height: calc(100vh - 17.2rem);
+		height: calc(100vh - 12.2rem);
 	}
 
 	.main-fonVidio {
@@ -1593,10 +1598,15 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.desc {
+		bottom: 50px;
 		overflow: hidden;
 		height: 40px;
 		line-height: 1.2;
 		font-size: 18px;
+	}
+
+	.button-scroll {
+		bottom: 30px;
 	}
 
 	.running-line {
@@ -1609,7 +1619,8 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 100vh;
+		min-height: 80vh;
+		border-top: 1px solid var(--default);
 	}
 
 	.image-second {
@@ -1714,7 +1725,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 114vh;
+		min-height: 90vh;
 	}
 
 	#third-section .swiper-slide .slider-desc {
