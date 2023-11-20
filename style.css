@@ -892,6 +892,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active,#fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active .slider-desc {
 	border-color: var(--bs-danger);
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 #fourth-section .slider .swiper.slider-left .swiper-slide .slider-desc {
