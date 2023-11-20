@@ -740,8 +740,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #third-section .swiper-button-next,#third-section .swiper-button-prev {
 	top: var(--swiper-navigation-top-offset,90%);
-	background-color: rgba(39,38,38,.5098039216);
-	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: url(/wp-content/themes/test-git/img/svg/cursor-hover.svg),auto!important;
 }
 
 #third-section .swiper-button-next::after,#third-section .swiper-button-prev::after {
@@ -750,10 +752,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #third-section .swiper-button-next {
 	right: var(--swiper-navigation-sides-offset,40%);
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 27 44'%3E%3Cpath d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z' fill%3D'%23DD3C3C'%2F%3E%3C%2Fsvg%3E") !important;
 }
 
 #third-section .swiper-button-prev {
 	left: var(--swiper-navigation-sides-offset,40%);
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 27 44'%3E%3Cpath d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z' fill%3D'%23DD3C3C'%2F%3E%3C%2Fsvg%3E") !important;
 }
 
 #third-section .swiper-slide {
