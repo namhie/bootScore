@@ -172,7 +172,6 @@
       </div>
       <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-      <script src="<?= get_stylesheet_directory_uri(); ?>/libs/bootstrap/bootstrap.bundle.min.js"></script>
       <script src="<?= get_stylesheet_directory_uri(); ?>/js/app.min.js"></script>
     </div>
 
