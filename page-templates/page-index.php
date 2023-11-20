@@ -458,6 +458,7 @@ get_header();
                         </div>
                       </div>
                     </div>
+                    <div class="slider-overlay"></div>
                   </div>
                 </div>
               </div>
