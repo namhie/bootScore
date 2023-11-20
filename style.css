@@ -743,7 +743,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	cursor: url(/wp-content/themes/test-git/img/svg/cursor-hover.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 #third-section .swiper-button-next::after,#third-section .swiper-button-prev::after {
