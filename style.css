@@ -114,7 +114,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	--scrollbarHeight: 5px;
 	--scrollbarBorder: 3px solid transparent;
 	--scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
-	--swiper-theme-color: #DD3C3C;
 }
 
 .wrapper {
