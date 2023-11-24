@@ -22,7 +22,6 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 /* 
 All style editing is done via scss/_bscore_custom.scss
 */
-/*commit-1*/
 html {
 	font-size: 18px;
 	scroll-behavior: smooth;
@@ -496,21 +495,26 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	position: absolute;
 	margin: auto;
 	left: 0;
-	right: 5px;
+	right: 0;
 	top: 0;
-	bottom: 0;
+	bottom: 6px;
 	text-align: center;
 	content: "";
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	border-bottom: 4px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-left: 3px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	/* border-bottom: 4px solid #fff;
 	border-left: 4px solid #fff;
 	border-right: 0;
 	border-top: 0;
 	-webkit-transform: rotate(227deg);
 	-ms-transform: rotate(227deg);
-	transform: rotate(227deg);
+	transform: rotate(227deg); */
 }
 
 .running-line {
@@ -867,7 +871,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 #fourth-section .slider .swiper.slider-left {
-	width: 100%;
+	width: 98%;
 }
 
 #fourth-section .slider .swiper.slider-left .swiper-slide {
@@ -891,7 +895,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	height: 100%;
 }
 
-#fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active,#fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active .slider-desc {
+#fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active, #fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active .slider-desc {
 	border-color: var(--bs-danger);
 	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
@@ -974,10 +978,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #fifth-section .circle-block {
 	position: absolute;
-	top: -180px;
+	top: -28px;
 	right: 10px;
-	padding-bottom: 2.3rem;
-	height: 340px;
+	padding-bottom: 1.3rem;
+	height: 170px;
 	width: 340px;
 }
 
@@ -1070,10 +1074,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		max-width: 77.55rem;
 	}
 
-	#fifth-section .circle-block {
-		top: -180px;
-	}
-
 	.title {
 		font-size: calc(4px + 1.875vw);
 		line-height: 1;
@@ -1145,8 +1145,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#fifth-section .circle-block {
-		top: -209px;
-		padding-bottom: 1.6rem;
+		padding-bottom: 2rem;
 	}
 
 	#fifth-section .circle-block p {
@@ -1213,7 +1212,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#fifth-section .circle-block {
-		top: -205px;
+		top: -18px;
 	}
 
 	#fifth-section .circle-block span {
@@ -1276,6 +1275,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		max-width: 770px;
 	}
 
+	#fifth-section .circle-block {
+		padding-bottom: 0;
+		height: 300px;
+    	width: 300px;
+	}
+
 	.button-scroll {
 		margin-bottom: 70px;
 	}
@@ -1286,22 +1291,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 @media (max-width:992px) {
-	body {
-		overflow-y: scroll;
-		overflow-x: hidden;
-		height: 100%;
-	}
-
+	
 	.wrapper {
-		overflow-y: scroll;
-		overflow-x: hidden;
 		height: 100%;
-		min-height: 100vh;
-	}
-
-	.slider-main {
-		overflow-y: scroll;
-		overflow-x: hidden;
 	}
 
 	.slider-main>.swiper-wrapper {
@@ -1396,11 +1388,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		height: 12px;
 		bottom: 5px;
 		right: 0;
-		border-bottom: 3px solid #fff;
-		border-left: 3px solid #fff;
-		-webkit-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		transform: rotate(-45deg);
 	}
 
 	#fourth-section .slider {
@@ -1409,6 +1396,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#fourth-section .slider .swiper.slider-left {
 		max-height: 100%;
+		padding-bottom: 1px;
 	}
 
 	#fourth-section .slider .swiper.slider-left .swiper-slide .slider-img {
@@ -1421,11 +1409,13 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#fifth-section .circle-block {
-		padding-bottom: 108px;
-		background: #fff;
-		-webkit-box-shadow: 0 3px 14px #c6c6c6;
-		box-shadow: 0 3px 14px #c6c6c6;
-		margin-top: -71px;
+		padding-bottom: 0;
+		width: 260px;
+		height: 260px;
+	}
+
+	#fifth-section .circle-block .text-accent {
+		width: 55%;
 	}
 
 	.running-line {
@@ -1521,7 +1511,11 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	.slider-title,.title {
 		max-width: 290px;
-		font-size: calc(28px + 61.2 * (100vw - 320px)/ 1920);
+		font-size: calc(22px + 61.2 * (100vw - 320px)/ 1920);
+	}
+
+	.title-left {
+		top: 36px;
 	}
 
 	.title-right {
@@ -1529,7 +1523,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.desc {
-		font-size: calc(18px + 17 * (100vw - 320px)/ 1920);
+		font-size: calc(14px + 17 * (100vw - 320px)/ 1920);
 	}
 
 	#fourth-section .slider .swiper.slider-left .swiper-slide {
@@ -1541,12 +1535,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		text-transform: capitalize;
 	}
 
-	#fifth-section .circle-block {
-		padding-bottom: 0;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-		margin-top: 30px;
-	}
 }
 
 @media (max-width:680px) {
@@ -1578,6 +1566,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	.title-right {
 		top: calc(100vh - 22rem);
+	}
+
+	.title-left {
+		top: 59px;
 	}
 
 	#first-section {
@@ -1660,11 +1652,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		min-height: 104px;
 	}
 
-	#fifth-section .circle-block {
-		width: 260px;
-		height: 260px;
-	}
-
 	.buttons-offcanvas .btn-soc {
 		font-size: 14px;
 	}
@@ -1676,6 +1663,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#fifth-section .title {
 		line-height: 1.1;
+	}
+
+	#fifth-section .circle-block .text-accent {
+		width: 50%;
 	}
 
 	.footer {
