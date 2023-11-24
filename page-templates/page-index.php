@@ -472,14 +472,14 @@ get_header();
               <div class="container position-relative h-100">
                 <div class="d-md-flex mb-3 pt-md-0 pt-xxl-3 pt-3">
                   <div class="title text-danger">News and market trends for buyers</div>
-                  <div class="circle-block rounded-circle border-danger border d-lg-flex d-none flex-column justify-content-end align-items-center z-1">
-                    <p class="text-accent">we'll stay in touch</p><a class="rounded-0 text-danger p-2" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">
+                  <div class="circle-block rounded-bottom-pill border-danger border border-top-0 d-xl-flex d-none flex-column justify-content-end align-items-center z-1">
+                    <p class="text-accent text-center">we'll stay in touch</p><a class="rounded-0 text-danger p-2" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">
                       <svg class="me-2 mb-2" width="24" height="20" viewBox="0 0 20 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.6137 0.141264C17.6137 0.141264 19.3897 -0.551304 19.2411 1.13052C19.1922 1.82309 18.7483 4.2473 18.4027 6.86901L17.2187 14.6358C17.2187 14.6358 17.12 15.7737 16.2318 15.9716C15.344 16.1691 14.0119 15.279 13.765 15.0811C13.5675 14.9325 10.0649 12.7062 8.83156 11.6182C8.48596 11.3211 8.09099 10.7277 8.88093 10.0352L14.0608 5.08799C14.6528 4.49462 15.2448 3.10948 12.7781 4.7913L5.87065 9.49071C5.87065 9.49071 5.08117 9.98579 3.60141 9.54054L0.394105 8.55083C0.394105 8.55083 -0.78989 7.80889 1.23296 7.06695C6.16688 4.74193 12.2354 2.36754 17.6128 0.141264H17.6137Z" fill="currentColor"></path>
                       </svg><span>subscribe</span></a>
                   </div>
                 </div>
-                <div class="row collapse-block d-lg-flex d-none"> 
+                <div class="row collapse-block d-xl-flex d-none"> 
                   <div class="col-xxl-5 col-md-6 collapse-children"> 
                     <ul class="list-group">
                       <li class="list-group-item">
@@ -517,7 +517,7 @@ get_header();
                       <li class="list-group-item"><a class="more-text text-danger py-4" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">More pipes forecast</a>
                         <div class="d-md-none d-flex justify-content-center"> 
                           <div class="circle-block rounded-circle border-danger border d-flex flex-column justify-content-center align-items-center z-1 position-static" id="circle-button">
-                            <p class="text-accent">we'll stay in touch</p><a class="rounded-0 subscribe" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы"> 
+                            <p class="text-accent text-center">we'll stay in touch</p><a class="rounded-0 subscribe" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы"> 
                               <svg class="me-2 mb-2" width="24" height="20" viewBox="0 0 20 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.6137 0.141264C17.6137 0.141264 19.3897 -0.551304 19.2411 1.13052C19.1922 1.82309 18.7483 4.2473 18.4027 6.86901L17.2187 14.6358C17.2187 14.6358 17.12 15.7737 16.2318 15.9716C15.344 16.1691 14.0119 15.279 13.765 15.0811C13.5675 14.9325 10.0649 12.7062 8.83156 11.6182C8.48596 11.3211 8.09099 10.7277 8.88093 10.0352L14.0608 5.08799C14.6528 4.49462 15.2448 3.10948 12.7781 4.7913L5.87065 9.49071C5.87065 9.49071 5.08117 9.98579 3.60141 9.54054L0.394105 8.55083C0.394105 8.55083 -0.78989 7.80889 1.23296 7.06695C6.16688 4.74193 12.2354 2.36754 17.6128 0.141264H17.6137Z" fill="currentColor"></path>
                               </svg><span>subscribe</span></a>
@@ -536,8 +536,8 @@ get_header();
                     </div>
                   </div>
                 </div>
-                <div class="row collapse-block d-lg-none d-flex"> 
-                  <div class="col-xxl-5 col-lg-6 collapse-children">
+                <div class="row collapse-block d-xl-none d-flex"> 
+                  <div class="col-xxl-5 col-xl-6 collapse-children">
                     <div class="chart-block collapse multi-collapse show" id="collapseWidthExample1">
                       <div class="card card-body border-0"><img src="<?= get_stylesheet_directory_uri(); ?>/img/diagrama.png" alt="">
                         <div class="position-absolute top-50 start-50 translate-middle w-100 text-center">
@@ -582,7 +582,7 @@ get_header();
                     </ul>
                     <div class="d-flex justify-content-center pb-5"> 
                       <div class="circle-button circle-block rounded-circle border-danger border d-flex flex-column justify-content-center align-items-center position-static" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">
-                        <p class="text-accent">we'll stay in touch</p>
+                        <p class="text-accent text-center">we'll stay in touch</p>
                         <div class="d-flex align-items-center sub text-danger">
                           <svg class="pe-2" width="24" height="20" viewBox="0 0 20 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path d="M17.6137 0.141264C17.6137 0.141264 19.3897 -0.551304 19.2411 1.13052C19.1922 1.82309 18.7483 4.2473 18.4027 6.86901L17.2187 14.6358C17.2187 14.6358 17.12 15.7737 16.2318 15.9716C15.344 16.1691 14.0119 15.279 13.765 15.0811C13.5675 14.9325 10.0649 12.7062 8.83156 11.6182C8.48596 11.3211 8.09099 10.7277 8.88093 10.0352L14.0608 5.08799C14.6528 4.49462 15.2448 3.10948 12.7781 4.7913L5.87065 9.49071C5.87065 9.49071 5.08117 9.98579 3.60141 9.54054L0.394105 8.55083C0.394105 8.55083 -0.78989 7.80889 1.23296 7.06695C6.16688 4.74193 12.2354 2.36754 17.6128 0.141264H17.6137Z" fill="currentColor"></path>
