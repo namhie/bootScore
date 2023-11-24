@@ -193,7 +193,7 @@ get_header();
                         </div>
                       </div>
                     </div>
-                    <div class="position-absolute top-50 start-100 translate-middle bg-white w-50"><a class="btn btn-outline-danger btn-soc border-start border-end border-1 rounded-0 px-md-3 px-1" href="" role="button">get a current price</a></div>
+                    <div class="position-absolute top-50 start-100 translate-middle bg-white w-75"><a class="btn btn-outline-danger btn-soc border-start border-end border-1 rounded-0 px-md-3 px-1" href="" role="button">get a current price</a></div>
                   </div>
                 </div>
               </div>
