@@ -212,6 +212,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	line-height: 70px;
 }
 
+.get-current {
+	width: 50%;
+}
+
 .logo,.offcanvas-title img {
 	width: 125.81px;
 	height: 32px;
@@ -1294,6 +1298,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	
 	.wrapper {
 		height: 100%;
+	}
+
+	.get-current {
+		width: 75%;
 	}
 
 	.slider-main>.swiper-wrapper {
