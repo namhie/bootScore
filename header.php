@@ -80,7 +80,7 @@
               <div class="times text-nowrap ps-3"><span class="cantry">RU </span><span class="time"></span></div>
             </div>
             <div class="offcanvas offcanvas-start text-bg-danger" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
-              <div class="offcanvas-header border-0">
+              <div class="offcanvas-header justify-content-start border-0 p-0">
                 <button type="button" class="btn-close btn-close-white fs-5 fs-md-3 p-4 pt-5 pb-3 me-2" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
               </div>
               <div class="offcanvas-body">
