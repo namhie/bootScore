@@ -80,12 +80,12 @@
               <div class="times text-nowrap ps-3"><span class="cantry">RU </span><span class="time"></span></div>
             </div>
             <div class="offcanvas offcanvas-start text-bg-danger" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
-              <div class="offcanvas-header justify-content-start border-0 p-0">
+              <div class="offcanvas-header justify-content-start p-0">
                 <button class="btn-close btn-close-white fs-5 fs-md-3 p-4 pt-5 pb-3 me-2" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <div class="offcanvas-title me-3"><a class="logo" href="#"><img src="<?= get_stylesheet_directory_uri(); ?>/img/logo-toggle.svg" alt="logo"></a></div>
               </div>
               <div class="offcanvas-body">
-                <div class="row mb-3">
+                <div class="row mt-4 mb-3">
                   <div class="col-4">
                     <div class="text-accent mb-3">Adress factories:</div>
                   </div>
