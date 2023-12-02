@@ -1735,6 +1735,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		margin-right: 1px!important;
 	}
 
+	.navbar-brand {
+		margin-right: 0;
+	}
+
 	#second-section {
 		min-height: 90vh;
 	}
