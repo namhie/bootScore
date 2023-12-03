@@ -77,7 +77,7 @@
                 </svg>
               </button>
               <div class="phone text-nowrap d-lg-inline-block d-none"><a class="py-md-3 px-3" href="tel:+79261605204">+7 (926) 160 52 04</a></div>
-              <div class="times text-nowrap ps-3"><span class="cantry">RU </span><span class="time"></span></div>
+              <div class="times text-nowrap ps-md-3 ps-2"><span class="cantry">RU </span><span class="time"></span></div>
             </div>
             <div class="offcanvas offcanvas-start text-bg-danger" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
               <div class="offcanvas-header justify-content-start border-bottom p-0">
