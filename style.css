@@ -1380,8 +1380,8 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.slider-overlay {
-		bottom: 30px;
-		height: 50%;
+		bottom: 10px;
+		height: 40%;
 	}
 
 	.button-scroll {
