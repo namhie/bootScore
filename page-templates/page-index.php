@@ -312,7 +312,7 @@ get_header();
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
                           <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
                             <div class="content row">
-                              <div class="col-6"> 
+                              <div class="col-xl-6"> 
                                 <div class="col mb-2">
                                   <p class="text-default mb-0">Diameter</p>
                                   <div class="row">
@@ -337,7 +337,7 @@ get_header();
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-6">
+                              <div class="col-xl-6">
                                 <div class="col mb-2">
                                   <p class="text-default mb-0">Wall thickness</p>
                                   <div class="row"> 
