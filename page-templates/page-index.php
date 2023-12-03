@@ -381,15 +381,19 @@ get_header();
                                   </div>
                                 </div>
                                 <div class="col mb-2">
-                                  <p class="text-default mb-0">Rectangular tubes diameter</p>
-                                  <div class="row"> 
-                                    <div class="col check pe-0">10x20 – 100x200 Mm </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Wall thickness</p>
                                   <div class="row">
-                                    <div class="col check pe-0">0.7 – 6.5 Mm</div>
+                                    <div class="col">
+                                      <p class="text-default mb-0">Rectangular tubes diameter</p>
+                                      <div class="row"> 
+                                        <div class="col check pe-0">10x20 – 100x200 Mm </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <p class="text-default mb-0">Wall thickness</p>
+                                      <div class="row">
+                                        <div class="col check pe-0">0.7 – 6.5 Mm</div>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
                                 <div class="col mb-2">
