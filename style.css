@@ -1376,12 +1376,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	#fourth-section .slider .swiper.slider-right {
 		width: 100%;
 		height: auto;
-		max-height: 500px;
+		max-height: 480px;
 	}
 
-	/* #fourth-section .slider .swiper.slider-right .swiper-wrapper {
-		height: 100%;
-	} */
+	.slider-overlay {
+		height: 50%;
+	}
 
 	.button-scroll {
 		bottom: 0;
