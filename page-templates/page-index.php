@@ -310,7 +310,7 @@ get_header();
                     <div class="swiper slider-right">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
+                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
                             <div class="content row">
                               <div class="col-xl-6"> 
                                 <div class="col mb-2">
@@ -369,7 +369,7 @@ get_header();
                           </div>
                         </div>
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
+                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
                             <div class="content row">
                               <div class="col-12"> 
                                 <div class="col mb-2">
@@ -421,7 +421,7 @@ get_header();
                           </div>
                         </div>
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
+                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
                             <div class="content row">
                               <div class="col-12"> 
                                 <div class="col mb-2">
@@ -448,7 +448,7 @@ get_header();
                           </div>
                         </div>
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
+                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
                             <div class="content row">
                               <div class="col-12"> 
                                 <div class="col mb-2">
@@ -472,7 +472,7 @@ get_header();
                           </div>
                         </div>
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
+                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
                             <div class="content row">
                               <div class="col-12"> 
                                 <div class="col mb-2">
@@ -497,7 +497,7 @@ get_header();
                           </div>
                         </div>
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
+                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
                             <div class="content row">
                               <div class="col-12"> 
                                 <div class="col mb-2">
