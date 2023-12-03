@@ -1379,10 +1379,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		max-height: 100%;
 	}
 
-	#fourth-section .slider .swiper.slider-right .swiper-wrapper {
+	/* #fourth-section .slider .swiper.slider-right .swiper-wrapper {
 		height: 100%;
-	}
-	
+	} */
+
 	.button-scroll {
 		bottom: 0;
 		right: 0;
