@@ -1272,10 +1272,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		height: 96px;
 	}
 
-	.inner-container {
-		padding: 4px 5px;
-	}
-
 	.main-fonVidio {
 		max-width: 480px;
 	}
@@ -1471,7 +1467,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.inner-container {
-		padding: 6px;
 		height: 100%;
 		overflow-y: clip;
 	}
