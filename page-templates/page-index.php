@@ -421,6 +421,16 @@ get_header();
                                     <div class="col-6 check pe-0">GOST 9941</div>
                                     <div class="col-12 check">Wall thicknesses from 0.5 up to 68 mm</div>
                                     <div class="col-12 check pe-0">Outer diameters is from 6 up to 914 mm for seamless pipe (0.24 up to 36 inches)</div>
+                                    <div class="col mb-2">
+                                      <p class="text-default mb-0">Steel metal structure</p>
+                                      <div class="row">
+                                        <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
+                                        <div class="col-12 check">Grade 201, surface 600 grit</div>
+                                        <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
+                                        <div class="col-12 check">Grade 201, surface 600 grit</div>
+                                        <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -437,6 +447,16 @@ get_header();
                                     <div class="col check pe-0">Any groove depth and width is possible on customer request </div>
                                   </div>
                                 </div>
+                                <div class="col mb-2">
+                                  <p class="text-default mb-0">Steel metal structure</p>
+                                  <div class="row">
+                                    <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
+                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
+                                    <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
+                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
+                                    <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -450,6 +470,16 @@ get_header();
                                   <div class="row">
                                     <div class="col-12 check pe-0">Super polish, We guaranty highest quality of the surface, standart sizes </div>
                                     <div class="col-12 check pe-0">can customize Your size surface types: Black matt, Black Titanium, Gold, Bronze, Mirror 800 Grit, Brushed 320 Grit etc.</div>
+                                  </div>
+                                </div>
+                                <div class="col mb-2">
+                                  <p class="text-default mb-0">Steel metal structure</p>
+                                  <div class="row">
+                                    <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
+                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
+                                    <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
+                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
+                                    <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
                                   </div>
                                 </div>
                               </div>
