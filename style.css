@@ -1414,6 +1414,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	#fourth-section .slider-right .swiper-slide {
 		height: 100%;
 		border: none;
+		overflow: auto;
 	}
 
 	#fifth-section .circle-block {
