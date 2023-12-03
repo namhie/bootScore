@@ -26,6 +26,7 @@ get_header();
                   </div>
                 </div>
               </div>
+              <!--commint-->
               <div class="running-line border-top border-1">
                 <div class="container px-xl-3 px-0">
                   <div class="cards-wrap py-2">
@@ -193,7 +194,7 @@ get_header();
                         </div>
                       </div>
                     </div>
-                    <div class="position-absolute top-50 start-100 translate-middle bg-white get-current"><a class="btn btn-outline-danger btn-soc border-start border-end border-1 rounded-0 px-md-3 px-1" href="" role="button">get a current price</a></div>
+                    <div class="position-absolute top-50 start-100 translate-middle bg-white w-50"><a class="btn btn-outline-danger btn-soc border-start border-end border-1 rounded-0 px-md-3 px-1" href="" role="button">get a current price</a></div>
                   </div>
                 </div>
               </div>
@@ -312,7 +313,7 @@ get_header();
                         <div class="swiper-slide flex-column align-items-start justify-content-start"> 
                           <div class="d-flex justify-content-between align-items-start p-md-3 p-0"> 
                             <div class="content row">
-                              <div class="col-xl-6"> 
+                              <div class="col-6"> 
                                 <div class="col mb-2">
                                   <p class="text-default mb-0">Diameter</p>
                                   <div class="row">
@@ -337,7 +338,7 @@ get_header();
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-xl-6">
+                              <div class="col-6">
                                 <div class="col mb-2">
                                   <p class="text-default mb-0">Wall thickness</p>
                                   <div class="row"> 
@@ -353,16 +354,6 @@ get_header();
                                     <div class="col-6 check pe-0">AISI 316L</div>
                                     <div class="col-6 check pe-0">AISI 430</div>
                                   </div>
-                                </div>
-                              </div>
-                              <div class="col mb-2">
-                                <p class="text-default mb-0">Steel metal structure</p>
-                                <div class="row">
-                                  <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
-                                  <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                  <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
-                                  <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                  <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
                                 </div>
                               </div>
                             </div>
@@ -391,19 +382,15 @@ get_header();
                                   </div>
                                 </div>
                                 <div class="col mb-2">
+                                  <p class="text-default mb-0">Rectangular tubes diameter</p>
+                                  <div class="row"> 
+                                    <div class="col check pe-0">10x20 – 100x200 Mm </div>
+                                  </div>
+                                </div>
+                                <div class="col mb-2">
+                                  <p class="text-default mb-0">Wall thickness</p>
                                   <div class="row">
-                                    <div class="col">
-                                      <p class="text-default mb-0">Rectangular tubes diameter</p>
-                                      <div class="row"> 
-                                        <div class="col check pe-0">10x20 – 100x200 Mm </div>
-                                      </div>
-                                    </div>
-                                    <div class="col">
-                                      <p class="text-default mb-0">Wall thickness</p>
-                                      <div class="row">
-                                        <div class="col check pe-0">0.7 – 6.5 Mm</div>
-                                      </div>
-                                    </div>
+                                    <div class="col check pe-0">0.7 – 6.5 Mm</div>
                                   </div>
                                 </div>
                                 <div class="col mb-2">
@@ -431,16 +418,6 @@ get_header();
                                     <div class="col-6 check pe-0">GOST 9941</div>
                                     <div class="col-12 check">Wall thicknesses from 0.5 up to 68 mm</div>
                                     <div class="col-12 check pe-0">Outer diameters is from 6 up to 914 mm for seamless pipe (0.24 up to 36 inches)</div>
-                                    <div class="col mb-2">
-                                      <p class="text-default mb-0">Steel metal structure</p>
-                                      <div class="row">
-                                        <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
-                                        <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                        <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
-                                        <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                        <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
-                                      </div>
-                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -455,16 +432,6 @@ get_header();
                                   <p class="text-default mb-0">stainless steel perforated tubes</p>
                                   <div class="row">
                                     <div class="col check pe-0">Any groove depth and width is possible on customer request </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Steel metal structure</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
                                   </div>
                                 </div>
                               </div>
@@ -482,16 +449,6 @@ get_header();
                                     <div class="col-12 check pe-0">can customize Your size surface types: Black matt, Black Titanium, Gold, Bronze, Mirror 800 Grit, Brushed 320 Grit etc.</div>
                                   </div>
                                 </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Steel metal structure</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
-                                  </div>
-                                </div>
                               </div>
                             </div>
                           </div>
@@ -504,16 +461,6 @@ get_header();
                                   <p class="text-default mb-0">stainless steel slot tubes</p>
                                   <div class="row">
                                     <div class="col-12 check pe-0">Any groove depth and width is possible on customer request  </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Steel metal structure</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
                                   </div>
                                 </div>
                               </div>
