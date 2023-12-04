@@ -56,66 +56,66 @@ get_header();
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                       <div class="card justify-content-start rounded-0 m-0 pe-3">
                         <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 ASTM A554</div>
+                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
                           <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2500 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">01/01/2023</div>
+                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
+                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
                         </div>
                       </div>
                     </div>
