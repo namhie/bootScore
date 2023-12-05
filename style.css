@@ -1639,7 +1639,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 80vh;
+		min-height: 88vh;
 		border-top: 1px solid var(--default);
 	}
 
@@ -1748,7 +1748,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 90vh;
+		min-height: 97vh;
 	}
 
 	#third-section .swiper-slide .slider-desc {
