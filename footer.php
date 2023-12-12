@@ -49,21 +49,21 @@
                 <div class="times text-nowrap px-2 ms-auto border-0 d-none"><span class="cantry">RU </span><span class="time time-form"></span></div>
               </div>
               <div class="offcanvas-body p-0">
-                <form class="px-4 pt-xxl-3 pt-2">
+                <form class="px-4 pt-xxl-3 pt-2" enctype="multipart/form-data" method="post" id="form" onsubmit="submitForm(event)" action="send.php">
                   <div class="text-accent mb-3">Fill out the form for a call</div>
                   <div class="mb-3"> 
-                    <input class="form-control text-bg-danger rounded-0" type="text" placeholder="Name">
+                    <input class="form-control text-bg-danger rounded-0" type="text" name="name" placeholder="Name">
                   </div>
                   <div class="mb-3"> 
-                    <input class="form-control text-bg-danger rounded-0" type="tel" placeholder="Phone number">
+                    <input class="form-control text-bg-danger rounded-0" type="tel" name="phone" placeholder="Phone number">
                   </div>
                   <div class="mb-3"> 
-                    <input class="form-control text-bg-danger rounded-0" type="email" placeholder="Email">
+                    <input class="form-control text-bg-danger rounded-0" type="email" name="email" placeholder="Email">
                   </div>
                   <div class="mb-3"> 
-                    <textarea class="form-control text-bg-danger rounded-0" rows="3">Hello, I am interested in your proposal and would like to discuss the details</textarea>
+                    <textarea class="form-control text-bg-danger rounded-0" name="text" rows="3">Hello, I am interested in your proposal and would like to discuss the details</textarea>
                   </div>
-                  <div class="buttons-offcanvas d-flex flex-wrap justify-content-md-between justify-content-start gap-3 mb-3 z-3"> <a class="btn btn-soc btn-outline-light rounded-0 w-100 active" href="#" role="button">send</a><a class="btn btn-soc btn-outline-light rounded-0 px-xxl-3 px-2" href="https://api.whatsapp.com/send/?phone=79176609522" role="button"> 
+                  <div class="buttons-offcanvas d-flex flex-wrap justify-content-md-between justify-content-start gap-3 mb-3 z-3"> <button class="btn btn-soc btn-outline-light rounded-0 w-100 active" href="#" type="submit">send</button><a class="btn btn-soc btn-outline-light rounded-0 px-xxl-3 px-2" href="https://api.whatsapp.com/send/?phone=79176609522" role="button"> 
                       <svg class="me-2" width="19" height="18" viewBox="0 0 19 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path d="M16.6999 4.16239C13.9998 -0.000137598 8.4873 -1.23765 4.21227 1.34987C0.0497401 3.93739 -1.30027 9.56244 1.39975 13.725L1.62475 14.0625L0.724745 17.4375L4.09977 16.5375L4.43727 16.7625C5.89979 17.55 7.4748 18 9.04981 18C10.7373 18 12.4248 17.55 13.8873 16.65C18.0499 13.95 19.2874 8.43743 16.6999 4.16239ZM14.3373 12.825C13.8873 13.5 13.3248 13.95 12.5373 14.0625C12.0873 14.0625 11.5248 14.2875 9.27481 13.3875C7.3623 12.4875 5.78728 11.0249 4.66228 9.33743C3.98727 8.54993 3.64977 7.53742 3.53727 6.52491C3.53727 5.62491 3.87477 4.8374 4.43727 4.2749C4.66228 4.04989 4.88728 3.93739 5.11228 3.93739H5.67478C5.89979 3.93739 6.12479 3.93739 6.23729 4.3874C6.46229 4.9499 7.02479 6.29991 7.02479 6.41241C7.13729 6.52491 7.13729 6.74991 7.02479 6.86242C7.13729 7.08742 7.02479 7.31242 6.91229 7.42492C6.79979 7.53742 6.68729 7.76242 6.57479 7.87492C6.34979 7.98742 6.23729 8.21243 6.34979 8.43743C6.79979 9.11243 7.3623 9.78744 7.9248 10.3499C8.59981 10.9124 9.27481 11.3624 10.0623 11.7C10.2873 11.8125 10.5123 11.8125 10.6248 11.5875C10.7373 11.3624 11.2998 10.7999 11.5248 10.5749C11.7498 10.3499 11.8623 10.3499 12.0873 10.4624L13.8873 11.3624C14.1123 11.475 14.3373 11.5875 14.4499 11.7C14.5624 12.0375 14.5624 12.4875 14.3373 12.825Z" fill="currentColor"></path>
                       </svg><span>Whatsapp</span></a><a class="btn btn-soc btn-outline-light rounded-0 px-xxl-3 px-2" href="https://t.me/namhie" role="button"> 
@@ -170,6 +170,37 @@
           </div>
         </div>
       </div>
+      <script>
+        async function submitForm(event) {
+          event.preventDefault(); // отключаем перезагрузку/перенаправление страницы
+          try {
+            // Формируем запрос
+            const response = await fetch(event.target.action, {
+              method: 'POST',
+              body: new FormData(event.target)
+            });
+            // проверяем, что ответ есть
+            if (!response.ok) throw (`Ошибка при обращении к серверу: ${response.status}`);
+            // проверяем, что ответ действительно JSON
+            const contentType = response.headers.get('content-type');
+            if (!contentType || !contentType.includes('application/json')) {
+              throw ('Ошибка обработки. Ответ не JSON');
+            }
+            // обрабатываем запрос
+            const json = await response.json();
+            if (json.result === "success") {
+              // в случае успеха
+              alert(json.info);
+            } else { 
+              // в случае ошибки
+              console.log(json);
+              throw (json.info);
+            }
+          } catch (error) { // обработка ошибки
+            alert(error);
+          }
+        }
+      </script>
       <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
       <script src="<?= get_stylesheet_directory_uri(); ?>/libs/bootstrap/bootstrap.bundle.min.js"></script>
