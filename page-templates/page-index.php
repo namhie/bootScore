@@ -250,31 +250,31 @@ get_header();
                   <div class="swiper-pagination"></div>
                   <div class="swiper-wrapper pt-5">
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <h2 class="slider-title">01</h2>
+                      <div class="slider-title lh-1 mb-3">01</div>
                       <div class="slider-desc">The size of the dealer price and why such prices cannot be found on the Internet</div>
                     </div>
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <h2 class="slider-title">02</h2>
+                      <div class="slider-title lh-1 mb-3">02</div>
                       <div class="slider-desc">Loan/factoring without collateral or security</div>
                     </div>
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <h2 class="slider-title">03</h2>
+                      <div class="slider-title lh-1 mb-3">03</div>
                       <div class="slider-desc">specialized delivery of stainless pipes by containers and ins nuances</div>
                     </div>
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <h2 class="slider-title">04</h2>
+                      <div class="slider-title lh-1 mb-3">04</div>
                       <div class="slider-desc">Quality checking</div>
                     </div>
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <h2 class="slider-title">05</h2>
+                      <div class="slider-title lh-1 mb-3">05</div>
                       <div class="slider-desc">Correct contract drawn up in favor of the buyer</div>
                     </div>
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <h2 class="slider-title">06</h2>
+                      <div class="slider-title lh-1 mb-3">06</div>
                       <div class="slider-desc">Insurance</div>
                     </div>
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <h2 class="slider-title">07</h2>
+                      <div class="slider-title lh-1 mb-3">07</div>
                       <div class="slider-desc">what are closed dealer sales</div>
                     </div>
                   </div>
