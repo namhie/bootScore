@@ -222,7 +222,7 @@ get_header();
           </div>
           <div class="swiper-slide element-animation"> 
             <section class="d-flex flex-column justify-content-between h-100 position-relative pt-2" id="second-section">
-              <div class="image-second"><img src="<?= get_stylesheet_directory_uri(); ?>/img/content-second.png" alt="content-second"></div>
+              <div class="image-second"><img src="<?= get_stylesheet_directory_uri(); ?>/img/content-second.png" alt="Stainless Steel Pipes"></div>
               <div class="container position-relative">
                 <ul class="list-group align-items-end position-absolute mt-3"> 
                   <li class="list-group-item reveal">have been exporting for many years from China pipes in containers</li>
@@ -242,7 +242,7 @@ get_header();
                 <div class="d-lg-flex d-none mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">
                   <div class="title text-danger">we'll tell you</div>
                 </div>
-                <div class="section-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/section-3/content-1.png" alt=""></div>
+                <div class="section-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/section-3/content-1.png" alt="Square and Rectangular Stainless Steel Pipes"></div>
                 <div class="d-lg-none d-flex my-3">
                   <div class="title text-danger">we'll tell you</div>
                 </div>
@@ -299,27 +299,27 @@ get_header();
                     <div class="swiper slider-left" thumbsSlider="">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/01.png" alt=""></div>
+                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/01.png" alt="stainless steel welded pipes"></div>
                           <div class="slider-desc">stainless steel welded pipes</div>
                         </div>
                         <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/02.png" alt=""></div>
+                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/02.png" alt="stainless steel pipes"></div>
                           <div class="slider-desc">stainless steel square / rectangular pipes</div>
                         </div>
                         <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/03.png" alt=""></div>
+                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/03.png" alt="stainless steel seamless pipes"></div>
                           <div class="slider-desc">stainless steel seamless pipes</div>
                         </div>
                         <div class="swiper-slide flex-column"> 
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/04.png" alt=""></div>
+                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/04.png" alt="stainless steel perforated tubes"></div>
                           <div class="slider-desc">stainless steel perforated tubes</div>
                         </div>
                         <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/05.png" alt=""></div>
+                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/05.png" alt="stainless steel slot tubes"></div>
                           <div class="slider-desc">stainless steel slot tubes</div>
                         </div>
                         <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/06.png" alt=""></div>
+                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/06.png" alt="stainless steel decorative tubes"></div>
                           <div class="slider-desc">stainless steel decorative tubes for shower cabins</div>
                         </div>
                       </div>
