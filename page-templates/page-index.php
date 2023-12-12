@@ -237,7 +237,7 @@ get_header();
             </section>
           </div>
           <div class="swiper-slide element-animation"> 
-            <section class="text-bg-dark align-items-start pt-xxl-4 pt-3" id="third-section">
+            <section class="text-bg-dark align-items-start pt-xxl-2 pt-3" id="third-section">
               <div class="container">
                 <div class="d-lg-flex d-none mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">
                   <div class="title text-danger">we'll tell you</div>
@@ -288,7 +288,7 @@ get_header();
             </section>
           </div>
           <div class="swiper-slide element-animation"> 
-            <section class="text-bg-dark align-items-start pt-xxl-4 pt-3" id="fourth-section">
+            <section class="text-bg-dark align-items-start pt-xxl-2 pt-3" id="fourth-section">
               <div class="container">
                 <div class="inner-container">
                   <div class="d-flex align-items-end justify-content-between mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">

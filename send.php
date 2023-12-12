@@ -11,7 +11,7 @@ if (!error_get_last()) {
     $name = $_POST['name'] ;
     $email = $_POST['email'];
     $text = $_POST['text'];
-    $file = $_FILES['myfile'];
+    $phone = $_POST['phone'];
     
     
     // Формирование самого письма
@@ -19,6 +19,7 @@ if (!error_get_last()) {
     $body = "
     <h2>Новое письмо</h2>
     <b>Имя:</b> $name<br>
+    <b>Телефонный номер:</b> $phone<br>
     <b>Почта:</b> $email<br><br>
     <b>Сообщение:</b><br>$text
     ";
@@ -44,13 +45,7 @@ if (!error_get_last()) {
     $mail->addAddress('poluchatel@ya.ru');  
     $mail->addAddress('poluchatel2@gmail.com'); // Ещё один, если нужен
     
-    // Прикрипление файлов к письму
-    if (!empty($file['name'][0])) {
-        for ($i = 0; $i < count($file['tmp_name']); $i++) {
-            if ($file['error'][$i] === 0) 
-                $mail->addAttachment($file['tmp_name'][$i], $file['name'][$i]);
-        }
-    }
+
     // Отправка сообщения
     $mail->isHTML(true);
     $mail->Subject = $title;
