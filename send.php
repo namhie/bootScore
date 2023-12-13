@@ -16,13 +16,11 @@ if (!error_get_last()) {
     
     // Формирование самого письма
     $title = "Заголовок письма";
-    $body = "
-    <h2>Новое письмо</h2>
+    $body = "<h2>Новое письмо</h2>
     <b>Имя:</b> $name<br>
     <b>Телефонный номер:</b> $phone<br>
     <b>Почта:</b> $email<br><br>
-    <b>Сообщение:</b><br>$text
-    ";
+    <b>Сообщение:</b><br>$text";
     
     // Настройки PHPMailer
     $mail = new PHPMailer\PHPMailer\PHPMailer();
@@ -37,7 +35,7 @@ if (!error_get_last()) {
     $mail->Host       = 'smtp.beget.com'; // SMTP сервера вашей почты
     $mail->Username   = 'site@datsumetals.com'; // Логин на почте
     $mail->Password   = 'Yq2%Fxmk'; // Пароль на почте - Нужно использовать не пароль от самой почты, а «Пароль приложения». В настройках вашей почты, будь то Gmail, Yandex или Mailru — есть раздел «Пароли приложений», где вы можете специально создать отдельный сгенерированный пароль. Именно этот пароль нужно использовать
-    $mail->SMTPSecure = 'ssl';
+    $mail->SMTPSecure = 'tls';
     $mail->Port       = 465;
     $mail->setFrom('site@datsumetals.com', 'Datsu Metal'); // Адрес самой почты и имя отправителя
     
