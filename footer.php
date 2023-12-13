@@ -56,7 +56,7 @@
                 <div class="times text-nowrap px-2 ms-auto border-0 d-none"><span class="cantry">RU </span><span class="time time-form"></span></div>
               </div>
               <div class="offcanvas-body p-0">
-                <form class="px-4 pt-xxl-3 pt-2" enctype="multipart/form-data" method="post" id="form" onsubmit="submitForm(event)" action="send.php">
+                <form class="px-4 pt-xxl-3 pt-2" enctype="multipart/form-data" method="post" id="form" onsubmit="submitForm(event)" action="/wp-content/theme/bootScore/send.php">
                   <div class="text-accent mb-3">Fill out the form for a call</div>
                   <div class="mb-3"> 
                     <input class="form-control text-bg-danger rounded-0" type="text" name="name" placeholder="Name">
