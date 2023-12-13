@@ -23,7 +23,7 @@ try {
     // Настройки PHPMailer
     $mail = new PHPMailer\PHPMailer\PHPMailer();
 
-    $mail->isSMTP();
+    //$mail->isSMTP();
     $mail->CharSet = "UTF-8";
     $mail->SMTPAuth = true;
     // $mail->SMTPDebug = 2; // Раскомментируйте для отладки
