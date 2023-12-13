@@ -35,15 +35,15 @@ if (!error_get_last()) {
     
     // Настройки вашей почты
     $mail->Host       = 'smtp.yandex.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'username'; // Логин на почте
-    $mail->Password   = 'password'; // Пароль на почте - Нужно использовать не пароль от самой почты, а «Пароль приложения». В настройках вашей почты, будь то Gmail, Yandex или Mailru — есть раздел «Пароли приложений», где вы можете специально создать отдельный сгенерированный пароль. Именно этот пароль нужно использовать
+    $mail->Username   = 'datsumetal'; // Логин на почте
+    $mail->Password   = 'nG4-DUf-8tS-iSX'; // Пароль на почте - Нужно использовать не пароль от самой почты, а «Пароль приложения». В настройках вашей почты, будь то Gmail, Yandex или Mailru — есть раздел «Пароли приложений», где вы можете специально создать отдельный сгенерированный пароль. Именно этот пароль нужно использовать
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('username@yandex.ru', 'Name'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('site@datsumetals.com', 'Datsu Metal'); // Адрес самой почты и имя отправителя
     
     // Получатель письма
-    $mail->addAddress('poluchatel@ya.ru');  
-    $mail->addAddress('poluchatel2@gmail.com'); // Ещё один, если нужен
+    $mail->addAddress('davydikm@inoxhub.com');  
+    $mail->addAddress('roman.sky.andreev@gmail.com'); // Ещё один, если нужен
     
 
     // Отправка сообщения
