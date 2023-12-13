@@ -32,10 +32,10 @@ if (!error_get_last()) {
     $mail->Debugoutput = function($str, $level) {$GLOBALS['data']['debug'][] = $str;};
     
     // Настройки вашей почты
-    $mail->Host       = 'smtp.beget.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'site@datsumetals.com'; // Логин на почте
-    $mail->Password   = 'Yq2%Fxmk'; // Пароль на почте - Нужно использовать не пароль от самой почты, а «Пароль приложения». В настройках вашей почты, будь то Gmail, Yandex или Mailru — есть раздел «Пароли приложений», где вы можете специально создать отдельный сгенерированный пароль. Именно этот пароль нужно использовать
-    $mail->SMTPSecure = 'tls';
+    $mail->Host       = 'smtp.yandex.ru'; // SMTP сервера вашей почты
+    $mail->Username   = 'datsumetal@yandex.ru'; // Логин на почте
+    $mail->Password   = 'nG4-DUf-8tS-iSX'; // Пароль на почте - Нужно использовать не пароль от самой почты, а «Пароль приложения». В настройках вашей почты, будь то Gmail, Yandex или Mailru — есть раздел «Пароли приложений», где вы можете специально создать отдельный сгенерированный пароль. Именно этот пароль нужно использовать
+    $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
     $mail->setFrom('site@datsumetals.com', 'Datsu Metal'); // Адрес самой почты и имя отправителя
     
