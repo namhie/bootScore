@@ -31,7 +31,7 @@ try {
 
     // Настройки вашей почты
     $mail->Host = 'smtp.yandex.ru'; // SMTP сервера вашей почты
-    $mail->Username = 'datsumetal@yandex.ru'; // Логин на почте
+    $mail->Username = 'datsumetal'; // Логин на почте
     $mail->Password = 'nG4-DUf-8tS-iSX'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
