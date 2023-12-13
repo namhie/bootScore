@@ -35,7 +35,7 @@ try {
     $mail->Password = 'nG4-DUf-8tS-iSX'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
-    $mail->setFrom('site@datsumetals.com', 'Datsu Metal'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('datsumetal@yandex.ru', 'Datsu Metal'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
     $mail->addAddress('davydikm@inoxhub.com');
