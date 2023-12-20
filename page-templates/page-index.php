@@ -241,7 +241,7 @@ get_header();
                 <div class="d-lg-none d-flex my-3">
                   <div class="title text-danger">we'll tell you</div>
                 </div>
-                <div class="swiper slider-numbered d-flex gap-4">
+                <div class="swiper slider-numbered d-flex gap-4 mb-lg-0 mb-5">
                   <div class="swiper-pagination"></div>
                   <div class="swiper-wrapper pt-5">
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
@@ -315,7 +315,7 @@ get_header();
                         </div>
                         <div class="swiper-slide flex-column">
                           <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/05.png" alt="stainless steel slot tubes"></div>
-                          <div class="slider-desc">stainless steel slot tubes/steel metal structure</div>
+                          <div class="slider-desc">stainless steel slot tubes / steel metal structure</div>
                         </div>
                       </div>
                     </div>
