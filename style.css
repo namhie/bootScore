@@ -1496,10 +1496,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		padding: 0;
 	}
 
-	.offcanvas-header {
-		border-bottom: 1px solid var(--default);
-	}
-
 	.times {
 		height: 55px;
 		line-height: 55px;

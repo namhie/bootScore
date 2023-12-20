@@ -49,7 +49,7 @@
             </div>
             <div class="times text-nowrap ps-md-3 ps-2"><span class="cantry">CN </span><span class="time"></span></div>
             <div class="offcanvas offcanvas-main offcanvas-start text-bg-danger" id="offcanvasNavbarMenu" aria-labelledby="offcanvasNavbarLabel">
-              <div class="offcanvas-header justify-content-start p-0">
+              <div class="offcanvas-header border-bottom justify-content-start p-0">
                 <button class="btn-close btn-close-white fs-5 fs-md-3 p-4 pt-5 pb-3 me-2" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <div class="offcanvas-title me-3"><a class="logo" href="#"><img src="<?= get_stylesheet_directory_uri(); ?>/img/logo-toggle.svg" alt="logo"></a></div>
                 <div class="times text-nowrap px-md-3 px-2 ms-auto border-0"><span class="cantry">CN </span><span class="time time-form"></span></div>
@@ -62,12 +62,12 @@
                   <li class="nav-item"><a class="nav-link px-4 py-1" href="./#fourth-section" role="button">our pipes</a></li>
                   <li class="nav-item"><a class="nav-link px-4 py-1" href="./#fifth-section" role="button">get in touch</a></li>
                 </ul>
-                <div class="row mt-4 mb-3 px-4 border-top pt-4">
+                <div class="row mt-2 mb-3 px-4 border-top pt-4">
                   <div class="col-4">
-                    <div class="fs-6 mb-3">Adress factories:</div>
+                    <div class="fs-6 mb-2">Adress factories:</div>
                   </div>
                   <div class="col">
-                    <div class="fs-6 mb-3">Daying Industrial Zone, Zhishan Town, Heshan City, Jiangmen City, Guangdong Province, China zip code 529700 </div>
+                    <div class="fs-6 mb-2">Daying Industrial Zone, Zhishan Town, Heshan City, Jiangmen City, Guangdong Province, China zip code 529700 </div>
                   </div>
                 </div>
                 <div class="row px-4">
