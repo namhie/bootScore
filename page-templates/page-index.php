@@ -315,7 +315,7 @@ get_header();
                         </div>
                         <div class="swiper-slide flex-column">
                           <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/05.png" alt="stainless steel slot tubes"></div>
-                          <div class="slider-desc">stainless steel slot tubes</div>
+                          <div class="slider-desc">stainless steel slot tubes/steel metal structure</div>
                         </div>
                       </div>
                     </div>
@@ -463,7 +463,7 @@ get_header();
                             <div class="content row">
                               <div class="col-12"> 
                                 <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel slot tubes/steel metal structure</p>
+                                  <p class="text-default mb-0">Stainless steel slot tubes</p>
                                   <div class="row">
                                     <div class="col-12 check pe-0">Any groove depth and width is possible on customer request  </div>
                                   </div>
@@ -471,7 +471,7 @@ get_header();
                                 <div class="col mb-2">
                                   <p class="text-default mb-0">Steel metal structure</p>
                                   <div class="row">
-                                    <div class="col-12 check pe-0">wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
+                                    <div class="col-12 check pe-0">Wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
                                     <div class="col-12 check">Grade 201, surface 600 grit</div>
                                     <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
                                     <div class="col-12 check">Grade 201, surface 600 grit</div>
