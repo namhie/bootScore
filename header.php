@@ -47,11 +47,12 @@
             <div class="navbar-menu">
               <button class="navbar-toggler p-3 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarMenu" aria-controls="offcanvasNavbarMenu" aria-expanded="false" aria-label="Переключатель навигации"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand p-0" href="index-home.html"><img class="logo" src="<?= get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="logo"></a>
             </div>
+            <div class="times text-nowrap ps-md-3 ps-2"><span class="cantry">CN </span><span class="time"></span></div>
             <div class="offcanvas offcanvas-main offcanvas-start text-bg-danger" id="offcanvasNavbarMenu" aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header justify-content-start p-0">
                 <button class="btn-close btn-close-white fs-5 fs-md-3 p-4 pt-5 pb-3 me-2" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <div class="offcanvas-title me-3"><a class="logo" href="#"><img src="<?= get_stylesheet_directory_uri(); ?>/img/logo-toggle.svg" alt="logo"></a></div>
-                <div class="times text-nowrap px-md-3 px-2 ms-auto border-0 d-none"><span class="cantry">RU </span><span class="time time-form"></span></div>
+                <div class="times text-nowrap px-md-3 px-2 ms-auto border-0 d-none"><span class="cantry">CN </span><span class="time time-form"></span></div>
               </div>
               <div class="offcanvas-body mt-md-4 px-0">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-lg-0 mt-3">
@@ -61,6 +62,22 @@
                   <li class="nav-item"> <a class="nav-link px-4" href="./#fourth-section" role="button">our pipes</a></li>
                   <li class="nav-item"> <a class="nav-link px-4" href="./#fifth-section" role="button">get in touch</a></li>
                 </ul>
+                <div class="row mt-4 mb-3">
+                  <div class="col-4">
+                    <div class="text-accent mb-3">Adress factories:</div>
+                  </div>
+                  <div class="col">
+                    <div class="text-accent mb-3">Daying Industrial Zone, Zhishan Town, Heshan City, Jiangmen City, Guangdong Province, China zip code 529700 </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="text-accent mb-3">Adress office:</div>
+                  </div>
+                  <div class="col">
+                    <div class="text-accent mb-3">UNIT 617, 6/F, 131-132CONNAUGHT ROAD WEST, SOLO WORKSHOPS, HONG KONG</div>
+                  </div>
+                </div>
                 <!--<div class="offcanvas-phone d-lg-none d-block border-top border-default"> 
                   <div class="phone text-nowrap text-light"><a class="py-md-3 px-3" href="tel:+79261605204"> 
                       <svg class="me-3" width="14" height="15" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,16 +87,16 @@
                 </div>
               </div>-->
             </div>
-            <div class="d-flex align-items-center gap-1">
-              <button type="button" class="btn btn-soc btn-danger rounded-0 px-md-4 px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasContacts" aria-controls="offcanvasContacts">
+            <!-- <div class="d-flex align-items-center gap-1"> -->
+              <!-- <button type="button" class="btn btn-soc btn-danger rounded-0 px-md-4 px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasContacts" aria-controls="offcanvasContacts">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
                   <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"></path>
                 </svg>
-              </button>
+              </button> -->
               <!--<div class="phone text-nowrap d-lg-inline-block d-none"><a class="py-md-3 px-3" href="tel:+79261605204">+7 (926) 160 52 04</a></div>-->
-              <div class="times text-nowrap ps-md-3 ps-2"><span class="cantry">RU </span><span class="time"></span></div>
-            </div>
-            <div class="offcanvas offcanvas-start text-bg-danger" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
+              <!-- <div class="times text-nowrap ps-md-3 ps-2"><span class="cantry">RU </span><span class="time"></span></div>
+            </div> -->
+            <!-- <div class="offcanvas offcanvas-start text-bg-danger" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
               <div class="offcanvas-header justify-content-start border-bottom p-0">
                 <button class="btn-close btn-close-white fs-5 fs-md-3 p-4 pt-5 pb-3 me-2" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <div class="offcanvas-title me-3"><a class="logo" href="#"><img src="<?= get_stylesheet_directory_uri(); ?>/img/logo-toggle.svg" alt="logo"></a></div>
@@ -102,7 +119,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </header>
