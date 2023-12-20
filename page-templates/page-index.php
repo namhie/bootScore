@@ -219,7 +219,7 @@ get_header();
             <section class="d-flex flex-column justify-content-between h-100 position-relative pt-2" id="second-section">
               <div class="image-second"><img src="<?= get_stylesheet_directory_uri(); ?>/img/content-second.png" alt="Stainless Steel Pipes"></div>
               <div class="container position-relative">
-                <ul class="list-group align-items-end position-absolute mt-3"> 
+                <ul class="list-group align-items-end position-absolute mt-md-3"> 
                   <li class="list-group-item reveal">have been exporting for many years from China pipes in containers</li>
                   <li class="list-group-item reveal">invest in production expansion</li>
                   <li class="list-group-item reveal">leading industry experts</li>
