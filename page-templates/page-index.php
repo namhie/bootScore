@@ -213,11 +213,6 @@ get_header();
                   </div>
                 </div>
               </div>
-              <div class="button-scroll d-xl-none d-block">
-                <div class="container"><a class="py-3 pe-2" href="#second-section">scroll to eplore</a>
-                  <div class="btn btn-danger rounded-circle p-2"></div>
-                </div>
-              </div>
             </section>
           </div>
           <div class="swiper-slide element-animation"> 

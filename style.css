@@ -285,8 +285,8 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 .offcanvas.offcanvas-main::after {
-	right: -264px;
-	bottom: -336px;
+	right: -184px;
+	bottom: -467px;
 }
 
 .offcanvas-body {
@@ -1699,6 +1699,18 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#third-section .swiper-button-prev {
 		left: var(--swiper-navigation-sides-offset,30%);
+	}
+
+	.get-current {
+		max-width: 160px;
+	}
+
+	.get-current .start-100 {
+		left: 75% !important;
+	}
+
+	.get-current .btn {
+		line-height: 1.2;
 	}
 }
 

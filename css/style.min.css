@@ -257,8 +257,8 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 .offcanvas.offcanvas-main::after {
-	right: -264px;
-	bottom: -336px;
+	right: -184px;
+	bottom: -467px;
 }
 
 .offcanvas-body {
@@ -1678,6 +1678,18 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	.buttons-offcanvas .btn-soc span {
 		display: none;
+	}
+
+	.get-current {
+		max-width: 160px;
+	}
+
+	.get-current .start-100 {
+		left: 75% !important;
+	}
+
+	.get-current .btn {
+		line-height: 1.2;
 	}
 }
 

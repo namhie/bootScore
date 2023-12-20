@@ -54,7 +54,7 @@
                 <div class="offcanvas-title me-3"><a class="logo" href="#"><img src="<?= get_stylesheet_directory_uri(); ?>/img/logo-toggle.svg" alt="logo"></a></div>
                 <div class="times text-nowrap px-md-3 px-2 ms-auto border-0"><span class="cantry">CN </span><span class="time time-form"></span></div>
               </div>
-              <div class="offcanvas-body mt-md-4 px-0">
+              <div class="offcanvas-body px-0">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-lg-0 mt-3">
                   <li class="nav-item"><a class="nav-link px-4 py-1" href="/#first-section" role="button">home</a></li>
                   <li class="nav-item"><a class="nav-link px-4 py-1" href="./#second-section" role="button">about us</a></li>
