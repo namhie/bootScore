@@ -1584,12 +1584,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#first-section {
-		height: calc(100vh - 8rem);
+		height: calc(100vh - 2.5rem);
 		margin-bottom: -2px;
 	}
 
 	.main {
-		height: calc(100vh - 12.2rem);
+		height: calc(100vh - 8.2rem);
 	}
 
 	.main-fonVidio {
