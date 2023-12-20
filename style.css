@@ -1376,7 +1376,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	#fourth-section .slider .swiper.slider-right {
 		width: 100%;
 		height: auto;
-		max-height: 480px;
 	}
 
 	.slider-overlay {

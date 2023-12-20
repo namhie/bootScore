@@ -1,3 +1,27 @@
+/*
+Theme Name: bootScore
+Theme URI: https://bootscore.me/
+Author: bootScore
+Author URI: https://bootscore.me
+Description: A powerful Bootstrap 5 WordPress Starter Theme with WooCommerce Support. <a href="https://bootscore.me/category/documentation/" target="_blank">Documentation</a>. This theme gives you full control whatever you do and the full freedom to design whatever you want. It comes with a wide selection of category, page, post, author and archive templates as well as sidebar, header, footer and 404 widgets. There are no customizer settings in the backend. All settings can only be made by touching the code. Some CSS, HTML, PHP and JS Skills are required to customize it.
+Version: 5.3.4
+Requires at least: 5.0
+Tested up to: 6.4.1
+Requires PHP: 7.4
+License: MIT License
+License URI: https://github.com/bootscore/bootscore/blob/main/LICENSE
+Text Domain: bootscore
+Tags: featured-images, threaded-comments, translation-ready
+
+Use this theme to make something cool, have fun, and share what you've learned with others.
+
+Bootscore is based on Underscores https://underscores.me/, (C) 2012-2022 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/* 
+All style editing is done via scss/_bscore_custom.scss
+*/
 html {
 	font-size: 18px;
 	scroll-behavior: smooth;
@@ -10,7 +34,7 @@ body {
 	font-size: 1rem;
 	line-height: 1.65;
 	overflow-x: hidden;
-	cursor: url(/img/svg/cursor-default.svg),auto!important;
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-default.svg),auto!important;
 }
 
 .btn,a,button {
@@ -188,6 +212,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	line-height: 70px;
 }
 
+.get-current {
+	width: 50%;
+}
+
 .logo,.offcanvas-title img {
 	width: 125.81px;
 	height: 32px;
@@ -232,7 +260,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 .navbar-toggler-icon {
-	background-image: url(/img/svg/menu-toggler.svg);
+	background-image: url(/wp-content/themes/bootScore/img/svg/menu-toggler.svg);
 }
 
 .text-success {
@@ -471,21 +499,26 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	position: absolute;
 	margin: auto;
 	left: 0;
-	right: 5px;
+	right: 0;
 	top: 0;
-	bottom: 0;
+	bottom: 6px;
 	text-align: center;
 	content: "";
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	border-bottom: 4px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-left: 3px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	/* border-bottom: 4px solid #fff;
 	border-left: 4px solid #fff;
 	border-right: 0;
 	border-top: 0;
 	-webkit-transform: rotate(227deg);
 	-ms-transform: rotate(227deg);
-	transform: rotate(227deg);
+	transform: rotate(227deg); */
 }
 
 .running-line {
@@ -716,8 +749,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #third-section .swiper-button-next,#third-section .swiper-button-prev {
 	top: var(--swiper-navigation-top-offset,90%);
-	color: var(--bs-danger);
-	background-color: rgba(39,38,38,.5098039216);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
@@ -727,10 +761,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #third-section .swiper-button-next {
 	right: var(--swiper-navigation-sides-offset,40%);
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 27 44'%3E%3Cpath d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z' fill%3D'%23DD3C3C'%2F%3E%3C%2Fsvg%3E") !important;
 }
 
 #third-section .swiper-button-prev {
 	left: var(--swiper-navigation-sides-offset,40%);
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 27 44'%3E%3Cpath d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z' fill%3D'%23DD3C3C'%2F%3E%3C%2Fsvg%3E") !important;
 }
 
 #third-section .swiper-slide {
@@ -839,7 +875,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 #fourth-section .slider .swiper.slider-left {
-	width: 100%;
+	width: 98%;
 }
 
 #fourth-section .slider .swiper.slider-left .swiper-slide {
@@ -863,8 +899,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	height: 100%;
 }
 
-#fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active,#fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active .slider-desc {
+#fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active, #fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active .slider-desc {
 	border-color: var(--bs-danger);
+	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
 }
 
 #fourth-section .slider .swiper.slider-left .swiper-slide .slider-desc {
@@ -881,6 +918,11 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	width: 50%;
 }
 
+#fourth-section .slider .swiper.slider-right .swiper-slide {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
 #fourth-section .swiper-slide {
 	font-size: 18px;
 	border: 1px solid var(--secondary);
@@ -893,6 +935,16 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #fourth-section .swiper-slide .slider-desc {
 	color: #fff;
+}
+
+.slider-overlay {
+	display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 38%;
+    z-index: 3;
 }
 
 .inner-container {
@@ -935,10 +987,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 #fifth-section .circle-block {
 	position: absolute;
-	top: -180px;
+	top: -28px;
 	right: 10px;
-	padding-bottom: 2.3rem;
-	height: 340px;
+	padding-bottom: 1.3rem;
+	height: 170px;
 	width: 340px;
 }
 
@@ -1031,10 +1083,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		max-width: 77.55rem;
 	}
 
-	#fifth-section .circle-block {
-		top: -180px;
-	}
-
 	.title {
 		font-size: calc(4px + 1.875vw);
 		line-height: 1;
@@ -1106,8 +1154,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#fifth-section .circle-block {
-		top: -209px;
-		padding-bottom: 1.6rem;
+		padding-bottom: 2rem;
 	}
 
 	#fifth-section .circle-block p {
@@ -1174,7 +1221,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#fifth-section .circle-block {
-		top: -205px;
+		top: -18px;
 	}
 
 	#fifth-section .circle-block span {
@@ -1225,16 +1272,18 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		height: 96px;
 	}
 
-	.inner-container {
-		padding: 4px 5px;
-	}
-
 	.main-fonVidio {
 		max-width: 480px;
 	}
 
 	#fifth-section .title {
 		max-width: 770px;
+	}
+
+	#fifth-section .circle-block {
+		padding-bottom: 0;
+		height: 300px;
+    	width: 300px;
 	}
 
 	.button-scroll {
@@ -1247,22 +1296,13 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 @media (max-width:992px) {
-	body {
-		overflow-y: scroll;
-		overflow-x: hidden;
-		height: 100%;
-	}
-
+	
 	.wrapper {
-		overflow-y: scroll;
-		overflow-x: hidden;
 		height: 100%;
-		min-height: 100vh;
 	}
 
-	.slider-main {
-		overflow-y: scroll;
-		overflow-x: hidden;
+	.get-current {
+		width: 75%;
 	}
 
 	.slider-main>.swiper-wrapper {
@@ -1335,6 +1375,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#fourth-section .slider .swiper.slider-right {
 		width: 100%;
+		height: auto;
+	}
+
+	.slider-overlay {
+		bottom: 45px;
+		height: 40%;
 	}
 
 	.button-scroll {
@@ -1357,11 +1403,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		height: 12px;
 		bottom: 5px;
 		right: 0;
-		border-bottom: 3px solid #fff;
-		border-left: 3px solid #fff;
-		-webkit-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		transform: rotate(-45deg);
 	}
 
 	#fourth-section .slider {
@@ -1370,6 +1411,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#fourth-section .slider .swiper.slider-left {
 		max-height: 100%;
+		padding-bottom: 1px;
 	}
 
 	#fourth-section .slider .swiper.slider-left .swiper-slide .slider-img {
@@ -1382,11 +1424,13 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#fifth-section .circle-block {
-		padding-bottom: 108px;
-		background: #fff;
-		-webkit-box-shadow: 0 3px 14px #c6c6c6;
-		box-shadow: 0 3px 14px #c6c6c6;
-		margin-top: -71px;
+		padding-bottom: 0;
+		width: 260px;
+		height: 260px;
+	}
+
+	#fifth-section .circle-block .text-accent {
+		width: 55%;
 	}
 
 	.running-line {
@@ -1429,7 +1473,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.inner-container {
-		padding: 6px;
 		height: 100%;
 		overflow-y: clip;
 	}
@@ -1452,13 +1495,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		padding: 0;
 	}
 
-	.offcanvas-header {
-		border-bottom: 1px solid var(--default);
-	}
-
 	.times {
 		height: 55px;
 		line-height: 55px;
+		border-left: 0;
 	}
 
 	.offcanvas-phone {
@@ -1482,7 +1522,11 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	.slider-title,.title {
 		max-width: 290px;
-		font-size: calc(28px + 61.2 * (100vw - 320px)/ 1920);
+		font-size: calc(22px + 61.2 * (100vw - 320px)/ 1920);
+	}
+
+	.title-left {
+		top: 36px;
 	}
 
 	.title-right {
@@ -1490,7 +1534,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.desc {
-		font-size: calc(18px + 17 * (100vw - 320px)/ 1920);
+		font-size: calc(14px + 17 * (100vw - 320px)/ 1920);
 	}
 
 	#fourth-section .slider .swiper.slider-left .swiper-slide {
@@ -1502,12 +1546,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		text-transform: capitalize;
 	}
 
-	#fifth-section .circle-block {
-		padding-bottom: 0;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-		margin-top: 30px;
-	}
 }
 
 @media (max-width:680px) {
@@ -1538,11 +1576,20 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.title-right {
-		top: calc(100vh - 25rem);
+		top: calc(100vh - 22rem);
+	}
+
+	.title-left {
+		top: 59px;
+	}
+
+	#first-section {
+		height: calc(100vh - 8rem);
+		margin-bottom: 2rem;
 	}
 
 	.main {
-		height: calc(100vh - 17.2rem);
+		height: calc(100vh - 12.2rem);
 	}
 
 	.main-fonVidio {
@@ -1566,10 +1613,15 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.desc {
+		bottom: 50px;
 		overflow: hidden;
 		height: 40px;
 		line-height: 1.2;
 		font-size: 18px;
+	}
+
+	.button-scroll {
+		bottom: 30px;
 	}
 
 	.running-line {
@@ -1582,7 +1634,8 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 100vh;
+		min-height: 88vh;
+		border-top: 1px solid var(--default);
 	}
 
 	.image-second {
@@ -1610,11 +1663,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		min-height: 104px;
 	}
 
-	#fifth-section .circle-block {
-		width: 260px;
-		height: 260px;
-	}
-
 	.buttons-offcanvas .btn-soc {
 		font-size: 14px;
 	}
@@ -1626,6 +1674,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#fifth-section .title {
 		line-height: 1.1;
+	}
+
+	#fifth-section .circle-block .text-accent {
+		width: 50%;
 	}
 
 	.footer {
@@ -1642,6 +1694,18 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#third-section .swiper-button-prev {
 		left: var(--swiper-navigation-sides-offset,30%);
+	}
+
+	.get-current {
+		max-width: 160px;
+	}
+
+	.get-current.start-100 {
+		left: 75%!important;
+	}
+
+	.get-current .btn {
+		line-height: 1.2;
 	}
 }
 
@@ -1679,18 +1743,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	.buttons-offcanvas .btn-soc span {
 		display: none;
 	}
-
-	.get-current {
-		max-width: 160px;
-	}
-
-	.get-current .start-100 {
-		left: 75% !important;
-	}
-
-	.get-current .btn {
-		line-height: 1.2;
-	}
 }
 
 @media (max-width:320px) {
@@ -1698,8 +1750,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		margin-right: 1px!important;
 	}
 
+	.navbar-brand {
+		margin-right: 0;
+	}
+
 	#second-section {
-		min-height: 114vh;
+		min-height: 97vh;
 	}
 
 	#third-section .swiper-slide .slider-desc {
