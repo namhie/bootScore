@@ -56,7 +56,7 @@
               </div>
               <div class="offcanvas-body px-0">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-lg-0 mt-3">
-                  <li class="nav-item"><a class="nav-link px-4 py-1" href="/#first-section" role="button">home</a></li>
+                  <li class="nav-item"><a class="nav-link px-4 py-1" href="./#first-section" role="button">home</a></li>
                   <li class="nav-item"><a class="nav-link px-4 py-1" href="./#second-section" role="button">about us</a></li>
                   <li class="nav-item"><a class="nav-link px-4 py-1" href="./#third-section" role="button">we’ll tell you</a></li>
                   <li class="nav-item"><a class="nav-link px-4 py-1" href="./#fourth-section" role="button">our pipes</a></li>
