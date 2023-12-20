@@ -1332,7 +1332,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section ul {
-		top: 168px;
+		top: 250px;
 		right: 0;
 		max-width: 100%;
 	}
@@ -1434,7 +1434,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	.running-line {
-		margin-top: -142px;
+		margin-top: -57px;
 		border-bottom: 1px solid var(--default);
 	}
 

@@ -26,7 +26,7 @@ get_header();
                   </div>
                 </div>
               </div>
-              <div class="running-line border-top border-1">
+              <div class="running-line border border-1">
                 <div class="container px-xl-3 px-0">
                   <div class="cards-wrap py-2">
                     <div class="cards marquee">
