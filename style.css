@@ -1670,6 +1670,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 	#third-section .swiper-wrapper {
 		flex-direction: column;
+		height: 100%;
 	  }
 	
 	#third-section .swiper.slider-numbered {
