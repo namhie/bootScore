@@ -1062,6 +1062,11 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	text-transform: uppercase;
 }
 
+.offcanvas-body {
+	margin-bottom: -20px;
+}
+
+
 @media (min-width:2560px) {
 	.container {
 		max-width: 1800px;
@@ -1571,10 +1576,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		bottom: -454px;
 	}
 
-	.offcanvas-body {
-		margin-bottom: -20px;
-	}
-	
 	.time {
 		font-size: 1.1rem;
 	}
