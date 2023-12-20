@@ -1634,8 +1634,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 88vh;
-		border-top: 1px solid var(--default);
+		min-height: 100vh;
+		margin-top: -20px;
+		/* border-top: 1px solid var(--default); */
 	}
 
 	.image-second {
@@ -1743,6 +1744,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	.buttons-offcanvas .btn-soc span {
 		display: none;
 	}
+
+	#second-section ul {
+		top: 160px;
+	}
 }
 
 @media (max-width:320px) {
@@ -1754,9 +1759,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		margin-right: 0;
 	}
 
-	#second-section {
+	/* #second-section {
 		min-height: 97vh;
-	}
+	} */
 
 	#third-section .swiper-slide .slider-desc {
 		width: 292px;
