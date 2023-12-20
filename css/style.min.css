@@ -1664,6 +1664,14 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		display: none;
 	}
 
+	#third-section .swiper-wrapper {
+		flex-direction: column;
+	  }
+	
+	#third-section .swiper.slider-numbered {
+	max-height: 100%;
+	}
+
 	#fourth-section .slider .swiper.slider-left .swiper-slide .slider-img {
 		height: 96px;
 	}
