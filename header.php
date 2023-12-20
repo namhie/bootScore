@@ -70,12 +70,12 @@
                     <div class="fs-6 mb-3">Daying Industrial Zone, Zhishan Town, Heshan City, Jiangmen City, Guangdong Province, China zip code 529700 </div>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row px-4">
                   <div class="col-4">
-                    <div class="text-accent mb-3">Adress office:</div>
+                    <div class="fs-6 mb-3">Adress office:</div>
                   </div>
                   <div class="col">
-                    <div class="text-accent mb-3">UNIT 617, 6/F, 131-132CONNAUGHT ROAD WEST, SOLO WORKSHOPS, HONG KONG</div>
+                    <div class="fs-6 mb-3">UNIT 617, 6/F, 131-132CONNAUGHT ROAD WEST, SOLO WORKSHOPS, HONG KONG</div>
                   </div>
                 </div>
             </div>
