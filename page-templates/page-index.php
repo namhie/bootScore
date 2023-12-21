@@ -241,9 +241,9 @@ get_header();
                 <div class="d-lg-none d-flex my-3">
                   <div class="title text-danger">we'll tell you</div>
                 </div>
-                <div class="swiper slider-numbered d-flex gap-4 mb-lg-0 mb-5">
-                  <div class="swiper-pagination d-md-block d-none"></div>
-                  <div class="swiper-wrapper pt-5">
+                <div class="swiper slider-numbered d-flex gap-4">
+                  <div class="swiper-pagination d-sm-block d-none"></div>
+                  <div class="swiper-wrapper pt-md-5">
                     <div class="swiper-slide flex-column align-items-start justify-content-start"> 
                       <div class="slider-title lh-1 mb-3">01</div>
                       <div class="slider-desc">The size of the dealer price and why such prices cannot be found on the Internet</div>
@@ -273,8 +273,8 @@ get_header();
                       <div class="slider-desc">what are closed dealer sales</div>
                     </div>
                   </div>
-                  <div class="swiper-button-next d-md-block d-none"></div>
-                  <div class="swiper-button-prev d-md-block d-none"></div>
+                  <div class="swiper-button-next d-sm-block d-none"></div>
+                  <div class="swiper-button-prev d-sm-block d-none"></div>
                 </div>
               </div>
               <div class="button-scroll d-xl-block d-none mb-4 pe-4"><a class="py-3 pe-2" href="#fourth-section">scroll</a>
