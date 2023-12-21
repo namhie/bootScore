@@ -1668,7 +1668,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 111vh;
+		min-height: 98vh;
 		margin-top: -20px;
 		/* border-top: 1px solid var(--default); */
 	}
