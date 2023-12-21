@@ -1579,7 +1579,8 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#third-section .section-img  img {
-		max-width: 236px;
+		margin-top: 20px;
+		max-width: 222px;
 	}
 }
 
@@ -1667,7 +1668,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 100vh;
+		min-height: 111vh;
 		margin-top: -20px;
 		/* border-top: 1px solid var(--default); */
 	}
