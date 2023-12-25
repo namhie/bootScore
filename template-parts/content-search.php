@@ -6,16 +6,9 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Bootscore
- * @version 5.3.4
  */
 
-
-// Exit if accessed directly
-defined( 'ABSPATH' ) || exit;
-
 ?>
-
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
   <div class="card horizontal mb-4">

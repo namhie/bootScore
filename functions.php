@@ -40,11 +40,12 @@ require_once('inc/deprecated.php');              // Fallback functions being dro
  */
 if (class_exists('WooCommerce')) {
   require get_template_directory() . '/woocommerce/wc-functions.php';
+  require get_template_directory() . '/woocommerce/woocommerce-functions.php';
 }
 
 
 /**
- * Load Bootstrap 5 Nav Walker and registers menus 
+ * Load Bootstrap 5 Nav Walker and registers menus
  * Remove this snippet in v6 and add nav-walker to the enqueue list
  * https://github.com/orgs/bootscore/discussions/347
  */

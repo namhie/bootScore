@@ -6,16 +6,9 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Bootscore
- * @version 5.3.4
  */
 
-
-// Exit if accessed directly
-defined( 'ABSPATH' ) || exit;
-
 ?>
-
-
 <section class="no-results not-found">
 
   <header class="page-header mb-4">

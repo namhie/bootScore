@@ -8,7 +8,7 @@
  * @package Bootscore
  */
 
-get_header();
+get_header(); // Вставляем заголовок сайта
 ?>
 
   <div id="content" class="site-content <?= bootscore_container_class(); ?>">

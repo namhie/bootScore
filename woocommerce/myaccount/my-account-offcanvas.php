@@ -41,25 +41,28 @@ if (!defined('ABSPATH')) {
       <div class="login">
 
       <?php endif; ?>
+      <?php
+if ( function_exists( 'wptelegram_login' ) ) {
+    wptelegram_login();
+}
+?>
+      <!-- <h5 class="fw-bold text-center mb-3"><?php esc_html_e('Login', 'woocommerce'); ?></h5> -->
 
-      <p class="h2"><?php esc_html_e('Login', 'woocommerce'); ?></p>
+      <div class="col mt-3">
 
-      <div class="card mt-3 mb-4">
-
-        <form class="card-body" method="post">
-
+        <form class="mb-3" method="post">
+            
           <?php do_action('woocommerce_login_form_start'); ?>
-
-          <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-            <label for="username_1"><?php esc_html_e('Username or email address', 'woocommerce'); ?>&nbsp;<span class="required">*</span></label>
-            <input type="text" class="woocommerce-Input woocommerce-Input--text input-text form-control" name="username" id="username_1" autocomplete="username" value="<?php echo (!empty($_POST['username'])) ? esc_attr(wp_unslash($_POST['username'])) : ''; ?>" /><?php // @codingStandardsIgnoreLine 
+            
+          <div class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide mb-3">
+              
+            <input type="text" class="woocommerce-Input woocommerce-Input--text input-text form-control" name="username" id="username_1" autocomplete="username" value="<?php echo (!empty($_POST['username'])) ? esc_attr(wp_unslash($_POST['username'])) : 'логин, ник игрока, телефон, email'; ?>" /><?php // @codingStandardsIgnoreLine 
                                                                                                                                                                                                                                                                         ?>
-          </p>
-          <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide position-relative">
-            <label for="password_1"><?php esc_html_e('Password', 'woocommerce'); ?>&nbsp;<span class="required">*</span></label>
+          </div>
+          <div class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide position-relative mb-3">
             <input class="woocommerce-Input woocommerce-Input--text input-text form-control" type="password" name="password" id="password_1" autocomplete="current-password" />
             <span class="offcanvas-password show-password-input"></span>
-          </p>
+          </div>
 
           <?php do_action('woocommerce_login_form'); ?>
 
@@ -68,11 +71,11 @@ if (!defined('ABSPATH')) {
             <label class="form-check-label" for="rememberme_1"><?php _e('Remember me', 'woocommerce'); ?></label>
           </p>
 
-          <p class="form-row">
+          <p class="text-center mb-2">
             <?php wp_nonce_field('woocommerce-login', 'woocommerce-login-nonce'); ?>
-            <button type="submit" class="woocommerce-form-login__submit btn btn-outline-primary" name="login" value="<?php esc_attr_e('Log in', 'woocommerce'); ?>"><?php esc_html_e('Log in', 'woocommerce'); ?></button>
+            <button type="submit" class="woocommerce-form-login__submit btn btn-primary" name="login" value="<?php esc_attr_e('Log in', 'woocommerce'); ?>"><?php esc_html_e('Log in', 'woocommerce'); ?></button>
           </p>
-          <p class="woocommerce-LostPassword lost_password mb-0 mt-3">
+          <p class="woocommerce-LostPassword lost_password form-text text-center">
             <a href="<?php echo esc_url(wp_lostpassword_url()); ?>"><?php esc_html_e('Lost your password?', 'woocommerce'); ?></a>
           </p>
 
@@ -88,7 +91,7 @@ if (!defined('ABSPATH')) {
 
       <div class="register">
 
-        <p class="h2"><?php esc_html_e('Register', 'woocommerce'); ?></p>
+        <h5 class="fw-bold text-center mb-3"><?php esc_html_e('Register', 'woocommerce'); ?></h5>
 
         <div class="card mt-3">
 

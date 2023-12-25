@@ -80,7 +80,6 @@
       <small class="bootscore-copyright"><span class="cr-symbol">&copy;</span>&nbsp;<?= date('Y'); ?> <?php bloginfo('name'); ?></small>
     </div>
   </div>
-
 </footer>
 
 <!-- To top button -->

@@ -18,6 +18,7 @@ if (!is_active_sidebar('sidebar-1')) {
   return;
 }
 ?>
+
 <div class="<?= bootscore_sidebar_col_class(); ?>">
   <aside id="secondary" class="widget-area">
 

@@ -1,628 +1,1398 @@
 <?php
-
 /**
  * Template Name: Index Page
+ *
  * @package Bootscore
  */
 
-get_header();
+
+get_header(); // Вставляем заголовок сайта
+
 ?>
-      <main class="slider-main">
-        <div class="swiper-wrapper wrapper-main">
-          <div class="swiper-slide element-animation">
-            <section class="d-flex flex-column pt-md-3 pt-0" id="first-section">
-              <div class="container">
-                <div class="main position-relative pt-xxl-0 pt-md-3 pt-0">
-                  <div class="main-fonVidio position-absolute top-50 start-50 translate-middle"><img class="img-map position-relative" src="<?= get_stylesheet_directory_uri(); ?>/img/map-default-2.png" alt="map">
-                    <video class="img-vidio object-fit-none position-absolute top-50 start-50 translate-middle" playsinline muted loop autoplay>
-                      <source src="<?= get_stylesheet_directory_uri(); ?>/libs/video/output-pipes.mp4" type="video/mp4">
-                    </video>
+    <main class="main">
+        <div class="container-sm container-fluid">
+          <div class="row h-100">
+            <h2 class="mt-3 d-md-none d-block">Как установить Minecraft TLauncher</h2>
+            <!-- без слайдера - НАЧАЛО -->
+              <!--<div class="col">-->
+              <!--  <div class="d-flex justify-content-end align-items-end mb-3 mt-xl-0 mt-4">-->
+              <!--    <div class="toast-container position-fixed top-50 end-0 translate-middle-y p-3">-->
+              <!--      <div class="toast position-sticky top-2" id="liveToast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">-->
+              <!--        <div class="d-flex"></div>-->
+              <!--        <button class="d-block btn-close me-2 mt-2 m-auto" type="button" data-bs-dismiss="toast" aria-label="Закрыть"></button>-->
+              <!--        <div class="toast-body"> -->
+              <!--          <div class="list-group" id="scollspy"><a class="btn btn-outline-secondary mb-2" href="#" role="button">Редактировать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Опубликовать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Администраторы</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Пригласить</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Подписчики</a></div>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="d-flex justify-content-between align-items-center w-100 pt-lg-0 pt-md-4 pt-2"><a href=""> <span class="text-primary fw-bold d-lg-none d-block">Услуги</span></a><span><span class="text-success me-2">Редактировать</span>-->
+              <!--        <div class="d-inline-block" id="liveToastBtn" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Редактировать">-->
+              <!--          <svg class="bi bi-pencil-square text-success" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>-->
+              <!--            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>-->
+              <!--          </svg>-->
+              <!--        </div></span></div>-->
+              <!--  </div>-->
+              <!--  <div class="row">-->
+              <!--    <div class="col text-lable">-->
+              <!--      <nav class="d-lg-block d-none" aria-label="breadcrumb">-->
+              <!--        <ol class="breadcrumb">-->
+              <!--          <li class="breadcrumb-item"> <a href="#">Главная</a></li>-->
+              <!--          <li class="breadcrumb-item"><a href="#">Мои объявления</a></li>-->
+              <!--          <li class="breadcrumb-item active" aria-current="page">Услуги</li>-->
+              <!--        </ol>-->
+              <!--      </nav>-->
+              <!--      <h2 class="mt-3 d-md-block d-none">Как установить Minecraft TLauncher</h2>-->
+              <!--      <div class="mb-3"></div><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&#160;eiusmod tempor incididunt ut&#160;labore et&#160;dolore magna aliqua. Ut&#160;enim ad&#160;minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#160;aliquip ex&#160;ea&#160;commodo consequat. Duis aute irure dolor in&#160;reprehenderit in&#160;voluptate velit esse... </span><a role="button" href="" data-bs-toggle="collapse" data-bs-target="#more" aria-expanded="false" aria-controls="collapseExample"><span class="link-primary link-offset-2 text-decoration-underline link-underline-opacity-25 link-underline-opacity-100-hover text-nowrap">Читать далее</span></a>-->
+              <!--      <div class="collapse" id="more">-->
+              <!--        <p>(Краткое описание 105 символов максимально, закголовок 56 символов максимально)</p>-->
+              <!--        <p>Итого все объявление макс 161 символ как в&#160;директе. Заголовок + краткое.</p>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="col">-->
+              <!--      <div class="card card-body shadow bg-body-tertiary rounded pt-xxl-5 p-3">-->
+              <!--        <div class="d-flex justify-content-xl-start justify-content-md-center justify-content-start align-items-end mt-4 mb-3">-->
+              <!--          <h4 class="text-danger text-nowrap m-0">1234 руб</h4><span class="text-decoration-line-through ps-3">2500 руб</span>-->
+              <!--        </div>-->
+              <!--        <div class="soc-link d-flex align-items-center justify-content-xl-start justify-content-center flex-wrap gap-2 py-3">-->
+              <!--          <div class="count d-flex flex-md-wrap flex-nowrap">-->
+              <!--            <div class="count-content collapse pe-2" id="collapseCart" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>-->
+              <!--              <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>-->
+              <!--            </div>-->
+              <!--            <div class="btn-block"><a class="btn btn-primary btn-lg" href="#collapseCart" data-bs-toggle="collapse">-->
+              <!--                <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>-->
+              <!--                </svg><span>в корзину</span></a></div>-->
+              <!--          </div>-->
+              <!--          <div class="soc-button d-flex flex-nowrap gap-2"><a class="btn btn-outline-primary btn-lg" href=""> -->
+              <!--              <svg class="bi bi-telegram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"> </path>-->
+              <!--              </svg></a><a class="btn btn-outline-success btn-lg" href=""> -->
+              <!--              <svg class="bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>-->
+              <!--              </svg></a><a class="btn btn-outline-secondary btn-lg" href=""> -->
+              <!--              <svg class="bi bi-subtract" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"></path>-->
+              <!--              </svg></a></div>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--</div>-->
+            <!-- без слайдера - КОНЕЦ-->
+
+            <!-- одинарный слайдер с горизотнальными изображениями - НАЧАЛО -->
+              <!--<div class="col-xl-7">-->
+              <!--  <div class="row justify-content-center"> -->
+              <!--    <div class="slider px-0">-->
+              <!--      <div class="swiper slider__image-horizont ms-xl-0">-->
+              <!--        <div class="swiper-wrapper">-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img class="d-block w-100 object-fit-fill" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image-horizont.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--        </div>-->
+              <!--        <div class="swiper-button-prev text-white rounded"></div>-->
+              <!--        <div class="swiper-button-next text-white rounded"></div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--</div>-->
+              <!--<div class="col-xl-5">-->
+              <!--  <div class="d-flex justify-content-end align-items-end mb-3 mt-xl-0 mt-4">-->
+              <!--    <div class="toast-container position-fixed top-50 end-0 translate-middle-y p-3">-->
+              <!--      <div class="toast position-sticky top-2" id="liveToast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">-->
+              <!--        <div class="d-flex"></div>-->
+              <!--        <button class="d-block btn-close me-2 mt-2 m-auto" type="button" data-bs-dismiss="toast" aria-label="Закрыть"></button>-->
+              <!--        <div class="toast-body"> -->
+              <!--          <div class="list-group" id="scollspy"><a class="btn btn-outline-secondary mb-2" href="#" role="button">Редактировать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Опубликовать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Администраторы</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Пригласить</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Подписчики</a></div>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="d-flex justify-content-between align-items-center w-100 pt-lg-0 pt-md-4 pt-2"><a href=""> <span class="text-primary fw-bold d-lg-none d-block">Услуги</span></a><span><span class="text-success me-2">Редактировать</span>-->
+              <!--        <div class="d-inline-block" id="liveToastBtn" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Редактировать">-->
+              <!--          <svg class="bi bi-pencil-square text-success" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>-->
+              <!--            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>-->
+              <!--          </svg>-->
+              <!--        </div></span></div>-->
+              <!--  </div>-->
+              <!--  <div class="card card-body shadow bg-body-tertiary rounded pt-xxl-5 p-3">-->
+              <!--    <div class="row">-->
+              <!--      <div class="col-lg-9 col-12 text-lable">-->
+              <!--        <nav class="d-lg-block d-none" aria-label="breadcrumb">-->
+              <!--          <ol class="breadcrumb">-->
+              <!--            <li class="breadcrumb-item"> <a href="#">Главная</a></li>-->
+              <!--            <li class="breadcrumb-item"><a href="#">Мои объявления</a></li>-->
+              <!--            <li class="breadcrumb-item active" aria-current="page">Услуги</li>-->
+              <!--          </ol>-->
+              <!--        </nav>-->
+              <!--        <h2 class="mt-3 d-md-block d-none">Как установить Minecraft TLauncher</h2>-->
+              <!--        <div class="mb-3"></div><span>Установка TLauncher за&#160;1 минуту. Ниже ссылки для скачивания... </span><a role="button" href="" data-bs-toggle="collapse" data-bs-target="#more" aria-expanded="false" aria-controls="collapseExample"><span class="link-primary link-offset-2 text-decoration-underline link-underline-opacity-25 link-underline-opacity-100-hover text-nowrap">Читать далее</span></a>-->
+              <!--        <div class="collapse" id="more">-->
+              <!--          <p>(Краткое описание 105 символов максимально, закголовок 56 символов максимально)</p>-->
+              <!--          <p>Итого все объявление макс 161 символ как в&#160;директе. Заголовок + краткое.</p>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--      <div class="col">-->
+              <!--        <div class="d-flex justify-content-xl-start justify-content-md-center justify-content-start align-items-end mt-4 mb-3">-->
+              <!--          <h4 class="text-danger text-nowrap m-0">1234 руб</h4><span class="text-decoration-line-through ps-3">2500 руб</span>-->
+              <!--        </div>-->
+              <!--        <div class="soc-link d-flex align-items-center justify-content-xl-start justify-content-center flex-wrap gap-2 py-3">-->
+              <!--          <div class="count d-flex flex-md-wrap flex-nowrap">-->
+              <!--            <div class="count-content collapse pe-2" id="collapseCart" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>-->
+              <!--              <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>-->
+              <!--            </div>-->
+              <!--            <div class="btn-block"><a class="btn btn-primary btn-lg" href="#collapseCart" data-bs-toggle="collapse">-->
+              <!--                <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>-->
+              <!--                </svg><span>в корзину</span></a></div>-->
+              <!--          </div>-->
+              <!--          <div class="soc-button d-flex flex-nowrap gap-2"><a class="btn btn-outline-primary btn-lg" href=""> -->
+              <!--              <svg class="bi bi-telegram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"> </path>-->
+              <!--              </svg></a><a class="btn btn-outline-success btn-lg" href=""> -->
+              <!--              <svg class="bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>-->
+              <!--              </svg></a><a class="btn btn-outline-secondary btn-lg" href=""> -->
+              <!--              <svg class="bi bi-subtract" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"> </path>-->
+              <!--              </svg></a></div>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--</div>-->
+            <!-- одинарный слайдер с горизотнальными изображениями - КОНЕЦ -->
+
+            <!-- одинарный слайдер с квадратными изображениями - НАЧАЛО -->
+              <!--<div class="col">-->
+              <!--  <div class="row justify-content-center"> -->
+              <!--    <div class="slider px-0">-->
+              <!--      <div class="swiper slider__square ms-xl-0">-->
+              <!--        <div class="swiper-wrapper">-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img class="d-block w-100 object-fit-fill" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--          <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">-->
+              <!--            <div class="ratio ratio-1x1"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>-->
+              <!--            <div class="fullscrin" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg"> -->
+              <!--              <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>-->
+              <!--                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>-->
+              <!--              </svg>-->
+              <!--            </div>-->
+              <!--          </div>-->
+              <!--        </div>-->
+              <!--        <div class="swiper-button-prev text-white rounded"></div>-->
+              <!--        <div class="swiper-button-next text-white rounded"></div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--</div>-->
+              <!--<div class="col-xl-7 col-12">-->
+              <!--  <div class="d-flex justify-content-end align-items-end mb-3 mt-xl-0 mt-4">-->
+              <!--    <div class="toast-container position-fixed top-50 end-0 translate-middle-y p-3">-->
+              <!--      <div class="toast position-sticky top-2" id="liveToast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">-->
+              <!--        <div class="d-flex"></div>-->
+              <!--        <button class="d-block btn-close me-2 mt-2 m-auto" type="button" data-bs-dismiss="toast" aria-label="Закрыть"></button>-->
+              <!--        <div class="toast-body"> -->
+              <!--          <div class="list-group" id="scollspy"><a class="btn btn-outline-secondary mb-2" href="#" role="button">Редактировать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Опубликовать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Администраторы</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Пригласить</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Подписчики</a></div>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="d-flex justify-content-between align-items-center w-100 pt-lg-0 pt-4"><a href=""> <span class="text-primary fw-bold d-lg-none d-block">Услуги</span></a><span><span class="text-success me-2">Редактировать</span>-->
+              <!--        <div class="d-inline-block" id="liveToastBtn" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Редактировать">-->
+              <!--          <svg class="bi bi-pencil-square text-success" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>-->
+              <!--            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>-->
+              <!--          </svg>-->
+              <!--        </div></span></div>-->
+              <!--  </div>-->
+              <!--  <div class="card card-body shadow bg-body-tertiary rounded pt-xxl-5 p-3">-->
+              <!--    <div class="row">-->
+              <!--      <div class="col-lg-9 col-12 text-lable">-->
+              <!--        <nav class="d-lg-block d-none" aria-label="breadcrumb">-->
+              <!--          <ol class="breadcrumb">-->
+              <!--            <li class="breadcrumb-item"> <a href="#">Главная</a></li>-->
+              <!--            <li class="breadcrumb-item"><a href="#">Мои объявления</a></li>-->
+              <!--            <li class="breadcrumb-item active" aria-current="page">Услуги</li>-->
+              <!--          </ol>-->
+              <!--        </nav>-->
+              <!--        <h2 class="mt-3 d-md-block d-none">Как установить Minecraft TLauncher</h2>-->
+              <!--        <div class="mb-3"></div><span>Установка TLauncher за&#160;1 минуту. Ниже ссылки для скачивания. Не&#160;забудь указать свой НИК на&#160;сайте как НИК в&#160;TLauncher... </span><a role="button" href="" data-bs-toggle="collapse" data-bs-target="#more" aria-expanded="false" aria-controls="collapseExample"><span class="link-primary link-offset-2 text-decoration-underline link-underline-opacity-25 link-underline-opacity-100-hover text-nowrap">Читать далее</span></a>-->
+              <!--        <div class="collapse" id="more">-->
+              <!--          <p>(Краткое описание 105 символов максимально, закголовок 56 символов максимально)</p>-->
+              <!--          <p>Итого все объявление макс 161 символ как в&#160;директе. Заголовок + краткое.</p>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--      <div class="col">-->
+              <!--        <div class="d-flex justify-content-xl-start justify-content-md-center justify-content-start align-items-end mt-4 mb-3">-->
+              <!--          <h4 class="text-danger text-nowrap m-0">1234 руб</h4><span class="text-decoration-line-through ps-3">2500 руб</span>-->
+              <!--        </div>-->
+              <!--        <div class="soc-link d-flex align-items-center justify-content-xl-start justify-content-center flex-wrap gap-2 py-3">-->
+              <!--          <div class="count d-flex flex-md-wrap flex-nowrap">-->
+              <!--            <div class="count-content collapse pe-2" id="collapseCart" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>-->
+              <!--              <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>-->
+              <!--            </div>-->
+              <!--            <div class="btn-block"><a class="btn btn-primary btn-lg" href="#collapseCart" data-bs-toggle="collapse">-->
+              <!--                <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>-->
+              <!--                </svg><span>в корзину</span></a></div>-->
+              <!--          </div>-->
+              <!--          <div class="soc-button d-flex flex-nowrap gap-2"><a class="btn btn-outline-primary btn-lg" href=""> -->
+              <!--              <svg class="bi bi-telegram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"> </path>-->
+              <!--              </svg></a><a class="btn btn-outline-success btn-lg" href=""> -->
+              <!--              <svg class="bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>-->
+              <!--              </svg></a><a class="btn btn-outline-secondary btn-lg" href=""> -->
+              <!--              <svg class="bi bi-subtract" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">-->
+              <!--                <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z">   </path>-->
+              <!--              </svg></a></div>-->
+              <!--        </div>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--</div>-->
+            <!-- одинарный слайдер с квадратными изображениями - КОНЕЦ -->
+
+            <!-- слайдер с табами изображениями - НАЧАЛО -->
+            <div class="col-xxl-7 col-lg-6">
+              <div class="row justify-content-center h-100">
+                <div class="slider pe-xl-3 px-0">
+                  <div class="swiper slider__images slider__images--main">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" data-slider="1" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="https://www.youtube.com/embed/WAl60Fn--SQ?si=d8NntCiUb7Zn05KR" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0">
+                        <div class="youtube ratio ratio-16x9">
+                          <iframe class="iframe object-fit-cover" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=d8NntCiUb7Zn05KR" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="overlay"></div>
+                        <div class="fullscrin" data-slider="1" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="https://www.youtube.com/embed/WAl60Fn--SQ?si=d8NntCiUb7Zn05KR?rel=0&amp;autoplay=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="увеличить окно просмотра" frameborder="0">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="swiper-slide" data-slider="2" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="img/slider/image06.jpg">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"><div class="fullscrin" data-slider="2" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="3" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"><div class="fullscrin" data-slider="3" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="4" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"><div class="fullscrin" data-slider="4" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="5" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"><div class="fullscrin" data-slider="5" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="6" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"><div class="fullscrin" data-slider="6" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="7" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"><div class="fullscrin" data-slider="7" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="8" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb05.png" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="image"><div class="fullscrin" data-slider="8" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb05.png" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="9" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"><div class="fullscrin" data-slider="9" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="10" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"> <div class="fullscrin" data-slider="10" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                      <div class="swiper-slide" data-slider="11" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" title="увеличить окно просмотра">
+                        <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"><div class="fullscrin" data-slider="11" data-bs-toggle="modal" data-bs-target="#backdrop-1" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" title="увеличить окно просмотра">
+                          <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                          </svg>
+                        </div></div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-prev text-white rounded"> </div>
+                    <div class="swiper-button-next text-white rounded"></div>
                   </div>
-                  <div class="title title-left text-danger top-lg-0"><span class="text-nowrap">stainless</span> steel </div>
-                  <div class="title title-right text-danger">pipes</div>
-                  <div class="desc">Best world prices <br>container sales only <br>Exclusive price directly from factories   </div>
-                  <div class="button-scroll d-xl-block d-none"> <a class="py-3 pe-2" href="#second-section">scroll</a>
-                    <div class="btn btn-danger rounded-circle p-2"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="running-line border border-1">
-                <div class="container px-xl-3 px-0">
-                  <div class="cards-wrap py-2">
-                    <div class="cards marquee">
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="cards marquee" aria-hidden="true">
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 316</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$3895 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 201 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$1400 </span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-success">+0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                      <div class="card justify-content-start rounded-0 m-0 pe-3">
-                        <div class="card-body p-0"> 
-                          <div class="card-title mb-0 d-lg-block d-none">AISI 304 Welded</div>
-                          <div class="card-title mb-0 d-lg-none d-block">2023</div>
-                          <div class="card-desc d-flex align-items-start py-1"> <span>$2170</span><span class="text-muted p-1 d-lg-block d-none">(per ton)</span><span class="text-danger">-0.5%  </span></div>
-                          <div class="card-data text-muted d-lg-block d-none">04/12/2023</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="position-absolute top-50 start-100 translate-middle bg-white get-current"><a class="btn btn-outline-danger btn-soc border-start border-end border-1 rounded-0 px-md-3 px-1" href="" role="button">get a current price</a></div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="swiper-slide element-animation"> 
-            <section class="d-flex flex-column justify-content-between h-100 position-relative pt-2" id="second-section">
-              <div class="image-second"><img src="<?= get_stylesheet_directory_uri(); ?>/img/content-second.png" alt="Stainless Steel Pipes"></div>
-              <div class="container position-relative">
-                <ul class="list-group align-items-end position-absolute mt-md-3"> 
-                  <li class="list-group-item reveal">have been exporting for many years from China pipes in containers</li>
-                  <li class="list-group-item reveal">invest in production expansion</li>
-                  <li class="list-group-item reveal">leading industry experts</li>
-                  <li class="list-group-item reveal">have exclusive prices</li>
-                </ul>
-              </div>
-              <div class="button-scroll d-xl-block d-none mb-4 me-4"> <a class="py-3 pe-2" href="#third-section">scroll</a>
-                <div class="btn btn-danger rounded-circle p-2"></div>
-              </div>
-            </section>
-          </div>
-          <div class="swiper-slide element-animation"> 
-            <section class="text-bg-dark align-items-start pt-xxl-2 pt-lg-3" id="third-section">
-              <div class="container">
-                <div class="d-lg-flex d-none mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">
-                  <div class="title text-danger">we'll tell you</div>
-                </div>
-                <div class="section-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/section-3/content-1.png" alt="Square and Rectangular Stainless Steel Pipes"></div>
-                <div class="d-lg-none d-flex my-3">
-                  <div class="title text-danger">we'll tell you</div>
-                </div>
-                <div class="swiper slider-numbered d-flex gap-4">
-                  <div class="swiper-pagination d-sm-block d-none"></div>
-                  <div class="swiper-wrapper pt-md-5">
-                    <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <div class="slider-title lh-1 mb-3">01</div>
-                      <div class="slider-desc">The size of the dealer price and why such prices cannot be found on the Internet</div>
-                    </div>
-                    <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <div class="slider-title lh-1 mb-3">02</div>
-                      <div class="slider-desc">Loan/factoring without collateral or security</div>
-                    </div>
-                    <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <div class="slider-title lh-1 mb-3">03</div>
-                      <div class="slider-desc">specialized delivery of stainless pipes by containers and ins nuances</div>
-                    </div>
-                    <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <div class="slider-title lh-1 mb-3">04</div>
-                      <div class="slider-desc">Quality checking</div>
-                    </div>
-                    <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <div class="slider-title lh-1 mb-3">05</div>
-                      <div class="slider-desc">Correct contract drawn up in favor of the buyer</div>
-                    </div>
-                    <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <div class="slider-title lh-1 mb-3">06</div>
-                      <div class="slider-desc">Insurance</div>
-                    </div>
-                    <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                      <div class="slider-title lh-1 mb-3">07</div>
-                      <div class="slider-desc">what are closed dealer sales</div>
-                    </div>
-                  </div>
-                  <div class="swiper-button-next d-sm-block d-none"></div>
-                  <div class="swiper-button-prev d-sm-block d-none"></div>
-                </div>
-              </div>
-              <div class="button-scroll d-xl-block d-none mb-4 pe-4"><a class="py-3 pe-2" href="#fourth-section">scroll</a>
-                <div class="btn btn-danger rounded-circle p-2"></div>
-              </div>
-            </section>
-          </div>
-          <div class="swiper-slide element-animation"> 
-            <section class="text-bg-dark align-items-start pt-xxl-2 pt-3" id="fourth-section">
-              <div class="container">
-                <div class="inner-container">
-                  <div class="d-flex align-items-end justify-content-between mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">
-                    <div class="title text-danger">We work with pipes</div>
-                    <div class="block-right"><a class="p-3 text-nowrap" href="">download catalogue</a></div>
-                  </div>
-                  <div class="slider d-flex justify-conten-center pb-lg-0 pb-5 pt-2">
-                    <div class="swiper slider-left" thumbsSlider="">
+                  <div class="slider-thumb d-flex px-lg-0 px-2">
+                    <div class="swiper slider-thumb__images slider-thumb__images--main" thumbsSlider="" style="--swiper-navigation-color:#000;--swiper-pagination-color:#000">
                       <div class="swiper-wrapper">
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/01.png" alt="stainless steel welded pipes"></div>
-                          <div class="slider-desc">stainless steel welded pipes</div>
+                        <div class="swiper-slide youtube ratio slide-horizontal">
+                          <video class="iframe object-fit-cover" autoplay muted loop poster="<?= get_stylesheet_directory_uri(); ?>/img/video-thumb.png">
+                            <source src="<?= get_stylesheet_directory_uri(); ?>/assets/video-thumb.webm" type="video/webm">
+                            <source src="<?= get_stylesheet_directory_uri(); ?>/assets/video-thumb.mp4" type="video/mp4">
+                          </video>
+                          <!-- <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=fDU1jMa6qKpuCmjg" title="YouTube video" frameborder="0"></iframe> -->
                         </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/02.png" alt="stainless steel pipes"></div>
-                          <div class="slider-desc">stainless steel square / rectangular pipes</div>
-                        </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/03.png" alt="stainless steel seamless pipes"></div>
-                          <div class="slider-desc">stainless steel seamless pipes</div>
-                        </div>
-                        <div class="swiper-slide flex-column"> 
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/04.png" alt="stainless steel perforated tubes"></div>
-                          <div class="slider-desc">stainless steel perforated tubes</div>
-                        </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/06.png" alt="stainless steel decorative tubes"></div>
-                          <div class="slider-desc">stainless steel decorative tubes for shower cabins</div>
-                        </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/05.png" alt="stainless steel slot tubes"></div>
-                          <div class="slider-desc">stainless steel slot tubes / steel metal structure</div>
-                        </div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="thumb"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="thumb"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="thumb"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="image"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>
+                        <div class="swiper-slide swiper-item"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>
                       </div>
                     </div>
-                    <div class="swiper slider-right">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-xl-6"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Diameter</p>
-                                  <div class="row">
-                                    <div class="col check">6.0 – 375 Mm </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Pipe length</p>
-                                  <div class="row"> 
-                                    <div class="col-6 check pe-0">4000 Mm</div>
-                                    <div class="col-6 check pe-0">6000 Mm</div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Surface</p>
-                                  <div class="row">
-                                    <div class="col-6 check pe-0">GRIT 320 <span>(ground)</span></div>
-                                    <div class="col-6 check pe-0">2B</div>
-                                  </div>
-                                  <div class="row"> 
-                                    <div class="col-6 check pe-0">GRIT 600 <span>(polished)</span></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-6">
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Wall thickness</p>
-                                  <div class="row"> 
-                                    <div class="col check pe-0">0.5 – 4 Mm </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">steel standard</p>
-                                  <div class="row">
-                                    <div class="col-6 check pe-0">AISI 201</div>
-                                    <div class="col-6 check pe-0">AISI 304</div>
-                                    <div class="col-6 check pe-0">AISI 321</div>
-                                    <div class="col-6 check pe-0">AISI 316L</div>
-                                    <div class="col-6 check pe-0">AISI 430</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel square / rectangular pipes</p>
-                                  <div class="row">
-                                    <div class="col check">aSTM 554 </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Pipe length</p>
-                                  <div class="row"> 
-                                    <div class="col check">MT304, MT304L, MT316L, MT430, Grade 201, 202 as per Mill's STD</div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Square tubes diameter</p>
-                                  <div class="row">
-                                    <div class="col check pe-0">12.7x12.7 – 150x150 Mm</div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <div class="row">
-                                    <div class="col">
-                                      <p class="text-default mb-0">Rectangular tubes diameter</p>
-                                      <div class="row"> 
-                                        <div class="col check pe-0">10x20 – 100x200 Mm </div>
-                                      </div>
-                                    </div>
-                                    <div class="col">
-                                      <p class="text-default mb-0">Wall thickness</p>
-                                      <div class="row">
-                                        <div class="col check pe-0">0.7 – 6.5 Mm</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel seamless pipes</p>
-                                  <div class="row">
-                                    <div class="col-6 check pe-0">ASTM A312 </div>
-                                    <div class="col-6 check pe-0">GOST 9941</div>
-                                    <div class="col-12 check">Wall thicknesses from 0.5 up to 68 mm</div>
-                                    <div class="col-12 check pe-0">Outer diameters is from 6 up to 914 mm for seamless pipe (0.24 up to 36 inches)</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel perforated tubes</p>
-                                  <div class="row">
-                                    <div class="col check pe-0">Any groove depth and width is possible on customer request </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel decorative tubes for shower cabins</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">Super polish, We guaranty highest quality of the surface, standart sizes </div>
-                                    <div class="col-12 check pe-0">can customize Your size surface types: Black matt, Black Titanium, Gold, Bronze, Mirror 800 Grit, Brushed 320 Grit etc.</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Stainless steel slot tubes</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">Any groove depth and width is possible on customer request  </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Steel metal structure</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">Wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="slider-overlay"></div>
                   </div>
                 </div>
               </div>
-              <div class="button-scroll d-xl-block d-none mb-4 me-4"> <a class="py-3 pe-2" href="#fifth-section">scroll</a>
-                <div class="btn btn-danger rounded-circle p-2"></div>
+            </div>
+            <div class="col-xxl-5 col-lg-6">
+              <div class="card card-body shadow bg-body-tertiary rounded p-3 pb-0 h-100">
+                <div class="d-flex justify-content-end align-items-end mb-0 mt-0">
+                <div class="toast-container position-fixed top-50 end-0 translate-middle-y p-3">
+                  <div class="toast position-sticky top-2" id="liveToast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+                    <div class="d-flex"></div>
+                    <button class="d-block btn-close me-2 mt-2 m-auto" type="button" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+                    <div class="toast-body">
+                      <div class="list-group" id="scollspy"><a class="btn btn-outline-secondary mb-2" href="#" role="button">Редактировать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Опубликовать</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Администраторы</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Пригласить</a><a class="btn btn-outline-secondary mb-2" href="#" role="button">Подписчики</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center w-100 pt-md-0 pt-4 pb-3"><a href=""> <span class="text-primary fw-bold d-lg-none d-block">Услуги</span></a><span><span class="text-success badge fw-normal me-0">Редактировать</span>
+                    <div class="d-inline-block align-middle" id="liveToastBtn" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Редактировать">
+                      <svg class="bi bi-pencil-square text-success" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                      </svg>
+                    </div></span></div>
+                </div>
+                <div class="row my-auto">
+                  <div class="col-12 text-lable">
+                    <nav class="d-lg-block d-none" aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"> <a href="#">Главная</a></li>
+                        <li class="breadcrumb-item"><a href="#">Мои объявления</a></li>
+                        <li class="breadcrumb-item"><a href="#">Услуги</a></li>
+                      </ol>
+                    </nav>
+                    <h1 class="mt-3 d-md-block d-none fs-md-1">Как установить Minecraft TLauncher</h1>
+                    <div class="mb-3"></div><span>Установка TLauncher за&#160;1 минуту. Ниже ссылки для скачивания. Не&#160;забудь указать свой НИК на&#160;сайте как НИК в&#160;TLauncher...<a role="button" href="" data-bs-toggle="collapse" data-bs-target="#more" aria-expanded="false" aria-controls="collapseExample"><span class="link-primary link-offset-2 text-decoration-underline link-underline-opacity-25 link-underline-opacity-100-hover text-nowrap">Читать далее</span></a></span>
+                    <div class="collapse" id="more">
+                      <p>(Краткое описание 105 символов максимально, закголовок 56 символов максимально)</p>
+                      <p>Итого все объявление макс 161 символ как в&#160;директе. Заголовок + краткое.</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="d-flex justify-content-xl-start justify-content-md-center justify-content-start align-items-end mt-4 mb-3">
+                      <h4 class="text-danger text-nowrap m-0">1234 руб</h4><span class="text-decoration-line-through ps-3">2500 руб</span>
+                    </div>
+                    <div class="soc-link d-flex align-items-center justify-content-xl-start justify-content-center flex-wrap gap-2 py-3">
+                      <div class="count d-flex flex-md-wrap flex-nowrap">
+                        <div class="count-content collapse pe-2" id="collapseCart" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                          <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                        </div>
+                        <div class="btn-block"><a class="btn btn-primary btn-lg" href="#collapseCart" data-bs-toggle="collapse">
+                            <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                              <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                            </svg><span>в корзину</span></a></div>
+                      </div>
+                      <div class="soc-button d-flex flex-nowrap gap-2">
+                        <a class="btn btn-outline-primary btn-lg" href="">
+                          <svg class="bi bi-telegram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"> </path>
+                          </svg></a><a class="btn btn-outline-success btn-lg" href="">
+                          <svg class="bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                          </svg></a><a class="btn btn-outline-secondary btn-lg" href="">
+                          <svg class="bi bi-subtract" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </section>
+            </div>
+            <!-- слайдер с табами изображениями -  КОНЕЦ -->
+
+            <div class="col-12">
+              <div class="description card card-body shadow bg-body-tertiary rounded">
+                <div class="row">
+                  <div class="col">
+                    <h2 class="block-title text-nowrap">Описание</h2>
+                    <p>Установка TLauncher за&#160;1 минуту. Ниже ссылки для скачивания. Не&#160;забудь указать свой НИК на&#160;сайте как НИК в&#160;TLauncher</p>
+                    <p>(Краткое описание 105 символов максимально, закголовок 56 символов максимально)</p>
+                    <p>Итого все объявление макс 161 символ как в&#160;директе. Заголовок + краткое.</p>
+                    <p>Ниже идет полное описание выводится следом за&#160;кратким, через отступ. Заголовок Описание не&#160;выводим.</p>
+                    <p>Полное описание, его лучше не&#160;разгонять. Всю интересную информацию, но&#160;объёмную лучше перенести вниз в&#160;проектчат. Там она будет структурированная по&#160;оглавлению/категориям чатов. Там&#160;же можно отзывы, картинки, шаблоны исполнительной документации, карточек нарядов и&#160;т.&#160;д.</p>
+                    <p>Добавляем, ключевые слова в&#160;полное описание. Но&#160;заполняем их&#160;в&#160;карточке товара в&#160;поле SEO</p>
+                    <p>Ставим внизу полного описание, это пригодится для SEO и&#160;важно при выгрузке товаров на&#160;маркетплейсы. Там это тоже поднимает товар в&#160;поиске.</p>
+                    <p>В&#160;полном описании можно с&#160;помощью текстового редактора вставлять фотки</p>
+                  </div>
+                  <div class="col">
+                    <h2 class="block-title text-nowrap">Характеристики</h2>
+                    <ul class="list-group list-group-flush mb-4">
+                      <li class="list-group-item d-flex px-0 pt-1 pb-2"><span class="text-nowrap">Название</span><span class="line mx-2"></span><span class="text-nowrap">Название</span></li>
+                      <li class="list-group-item d-flex px-0 pt-1 pb-2"><span class="text-nowrap">Название</span><span class="line mx-2"></span><span class="text-nowrap">Название</span></li>
+                      <li class="list-group-item d-flex px-0 pt-1 pb-2"><span class="text-nowrap">Название</span><span class="line mx-2"></span><span class="text-nowrap">Название</span></li>
+                      <li class="list-group-item d-flex px-0 pt-1 pb-2"><span class="text-nowrap">Название</span><span class="line mx-2"></span><span class="text-nowrap">Название</span></li>
+                      <li class="list-group-item d-flex px-0 pt-1 pb-2"><span class="text-nowrap">Название</span><span class="line mx-2"></span><span class="text-nowrap">Название</span></li>
+                      <li class="list-group-item d-flex px-0 pt-1 pb-2"><span class="text-nowrap">Название</span><span class="line mx-2"></span><span class="text-nowrap">Название</span></li>
+                    </ul><a class="d-block delivery py-2" href="" role="button">Доставка и оплата</a><a class="d-block conditions py-2" href="" role="button">Условия продажи</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="swiper-slide element-animation"> 
-            <section class="pt-xxl-4 pt-3" id="fifth-section">
-              <div class="container position-relative h-100">
-                <div class="d-md-flex mb-3 pt-md-0 pt-xxl-3 pt-3">
-                  <div class="title text-danger">News and market trends for buyers</div>
-                  <div class="circle-block rounded-bottom-pill border-danger border border-top-0 d-xl-flex d-none flex-column justify-content-end align-items-center z-1">
-                    <p class="text-accent text-center">we'll stay in touch</p><a class="rounded-0 text-danger p-2" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">
-                      <svg class="me-2 mb-2" width="24" height="20" viewBox="0 0 20 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.6137 0.141264C17.6137 0.141264 19.3897 -0.551304 19.2411 1.13052C19.1922 1.82309 18.7483 4.2473 18.4027 6.86901L17.2187 14.6358C17.2187 14.6358 17.12 15.7737 16.2318 15.9716C15.344 16.1691 14.0119 15.279 13.765 15.0811C13.5675 14.9325 10.0649 12.7062 8.83156 11.6182C8.48596 11.3211 8.09099 10.7277 8.88093 10.0352L14.0608 5.08799C14.6528 4.49462 15.2448 3.10948 12.7781 4.7913L5.87065 9.49071C5.87065 9.49071 5.08117 9.98579 3.60141 9.54054L0.394105 8.55083C0.394105 8.55083 -0.78989 7.80889 1.23296 7.06695C6.16688 4.74193 12.2354 2.36754 17.6128 0.141264H17.6137Z" fill="currentColor"></path>
-                      </svg><span>subscribe</span></a>
+          <div class="row gap-lg-0 gap-5 mt-4 pt-5">
+            <div class="col-lg-3">
+              <div class="filter-check my-md-0 my-3 p-md-0 p-3 bg-body-tertiary rounded"><a class="d-block filter-title fs-4" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-controls="collapseExample" aria-expanded="false">Категории
+                  <div class="form-check-arrow d-lg-none d-block"></div></a>
+                <div class="list-footer-item-overlay"></div>
+              </div>
+              <div class="collapse" id="collapseExample2">
+                <div class="card card-body pt-3 m-0 p-0">
+                  <div class="form-check border-bottom py-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck21" checked>
+                    <label class="form-check-label" for="flexCheck21">Мои объявления</label>
+                  </div>
+                  <div class="form-check border-bottom py-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck22">
+                    <label class="form-check-label" for="flexCheck22">Услуги</label>
+                  </div>
+                  <div class="form-check form-list border-bottom py-2"><a class="d-block" data-bs-toggle="collapse" href="#collapseCatalogItem2" role="button" aria-controls="collapseCatalogItem2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheck23" checked>
+                      <label class="form-check-label" for="flexCheck23">Уроки</label>
+                      <div class="form-check-arrow"></div></a>
+                    <div class="collapse" id="collapseCatalogItem2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheck24" checked>
+                        <label class="form-check-label" for="flexCheck24">Программирование</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheck25" checked>
+                        <label class="form-check-label" for="flexCheck25">Майнкрафт</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheck26">
+                        <label class="form-check-label" for="flexCheck26">Unity</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-check border-bottom py-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck27">
+                    <label class="form-check-label" for="flexCheck27">Услуги</label>
                   </div>
                 </div>
-                <div class="row collapse-block d-xl-flex d-none"> 
-                  <div class="col-xxl-5 col-md-6 collapse-children"> 
-                    <ul class="list-group">
-                      <li class="list-group-item">
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel welded pipes</p>
-                          </div>
-                          <div class="col-5"> <span class="text-accent">$1234 </span><span class="text-success text-accent">+0.5% </span></div>
-                        </div>
-                      </li>
-                      <li class="list-group-item"> 
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel perforated tubes</p>
-                          </div>
-                          <div class="col-5"> <span class="text-accent">$1234 </span><span class="text-success text-accent">+0.5% </span></div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel square / rectangular pipes</p>
-                          </div>
-                          <div class="col-5"> <span class="text-accent">$1234 </span><span class="text-success text-accent">+0.5% </span></div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel seamless pipes</p>
-                          </div>
-                          <div class="col-5"> <span class="text-accent">&#36;1234</span><span class="text-success text-accent"> +0.5% </span></div>
-                        </div>
-                      </li>
-                      <li class="list-group-item"><a class="more-text text-danger py-4" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">More pipes forecast</a>
-                        <div class="d-md-none d-flex justify-content-center"> 
-                          <div class="circle-block rounded-circle border-danger border d-flex flex-column justify-content-center align-items-center z-1 position-static" id="circle-button">
-                            <p class="text-accent text-center">we'll stay in touch</p><a class="rounded-0 subscribe" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы"> 
-                              <svg class="me-2 mb-2" width="24" height="20" viewBox="0 0 20 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.6137 0.141264C17.6137 0.141264 19.3897 -0.551304 19.2411 1.13052C19.1922 1.82309 18.7483 4.2473 18.4027 6.86901L17.2187 14.6358C17.2187 14.6358 17.12 15.7737 16.2318 15.9716C15.344 16.1691 14.0119 15.279 13.765 15.0811C13.5675 14.9325 10.0649 12.7062 8.83156 11.6182C8.48596 11.3211 8.09099 10.7277 8.88093 10.0352L14.0608 5.08799C14.6528 4.49462 15.2448 3.10948 12.7781 4.7913L5.87065 9.49071C5.87065 9.49071 5.08117 9.98579 3.60141 9.54054L0.394105 8.55083C0.394105 8.55083 -0.78989 7.80889 1.23296 7.06695C6.16688 4.74193 12.2354 2.36754 17.6128 0.141264H17.6137Z" fill="currentColor"></path>
-                              </svg><span>subscribe</span></a>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="row">
+                <h2 class="block-title pb-md-5 pb-3">Предложения других продавцов</h2>
+                <div class="d-lg-block d-none">
+                  <div class="d-flex mb-5">
+                    <div class="flex-shrink-0"><img class="img-fluid img-flex-card rounded me-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg" alt=""></div>
+                    <div class="flex-grow-1 py-0">
+                      <div class="row">
+                        <div class="col-xl-7"><a class="d-block fw-bold" href="">Занятия по программированию в Майнкрафт</a>
+                          <p class="fs-6 mb-2">Купить абонемент или билет на занятие</p><a class="link-success redact" href="#">Редактировать</a>
+                          <div class="mb-3">
+                            <div class="collapse" id="addDescrCard">
+                              <div class="card card-body px-0">
+                                <textarea class="form-control" id="textareaCardDescription" name="" cols="30" rows="2"></textarea>
+                              </div>
+                              <button class="btn btn-sm btn-secondary">Добавить </button>
+                            </div>
                           </div>
                         </div>
-                      </li>
-                    </ul>
+                        <div class="col-xl-2">
+                          <div class="d-flex flex-column justify-content-center align-items-start">
+                            <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                            <p class="text-decoration-line-through">2500 руб</p>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="count d-flex flex-md-wrap flex-nowrap">
+                            <div class="count-content collapse pe-2" id="collapseCartCatalog1" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                              <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                            </div>
+                            <div class="btn-block ms-auto" href="#collapseCartCatalog1" data-bs-toggle="collapse">
+                              <button class="btn btn-primary w-100">
+                                <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                                </svg><span>В корзину</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-xxl-7 col-md-6 collapse-children">
-                    <div class="chart-block collapse multi-collapse show" id="collapseWidthExample1">
-                      <div class="card card-body border-0"><img src="<?= get_stylesheet_directory_uri(); ?>/img/diagrama.png" alt="">
-                        <div class="position-absolute top-50 start-50 translate-middle w-100 text-center">
-                          <div class="text-accent pb-3 px-4">Find out the current price directly from the manufacturers' factories right now</div><a class="btn btn-outline-danger btn-soc border-start border-end border-1 rounded-0 active" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">get a current price</a>
+                  <div class="d-flex mb-5">
+                    <div class="flex-shrink-0"><img class="img-fluid img-flex-card rounded me-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt=""></div>
+                    <div class="flex-grow-1 py-0">
+                      <div class="row">
+                        <div class="col-xl-7"><a class="d-block fw-bold" href="">Занятия по программированию в Майнкрафт</a>
+                          <p class="fs-6 mb-2">Купить абонемент или билет на занятие </p><a class="link-success redact" href="#">Редактировать </a>
+                        </div>
+                        <div class="col-xl-2">
+                          <div class="d-flex flex-column justify-content-center align-items-start">
+                            <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                            <p class="text-decoration-line-through">2500 руб</p>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="count d-flex flex-md-wrap flex-nowrap">
+                            <div class="count-content collapse pe-2" id="collapseCartCatalog2" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                              <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                            </div>
+                            <div class="btn-block ms-auto" href="#collapseCartCatalog2" data-bs-toggle="collapse">
+                              <button class="btn btn-primary w-100">
+                                <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                                </svg><span>В корзину</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-5">
+                    <div class="flex-shrink-0"><img class="img-fluid img-flex-card rounded me-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt=""></div>
+                    <div class="flex-grow-1 py-0">
+                      <div class="row">
+                        <div class="col-xl-7"><a class="d-block fw-bold" href="">Занятия по программированию в Майнкрафт</a>
+                          <p class="fs-6 mb-2">Купить абонемент или билет на занятие</p>
+                        </div>
+                        <div class="col-xl-2">
+                          <div class="d-flex flex-column justify-content-center align-items-start">
+                            <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                            <p class="text-decoration-line-through">2500 руб</p>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="count d-flex flex-md-wrap flex-nowrap">
+                            <div class="count-content collapse pe-2" id="collapseCartCatalog3" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                              <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                            </div>
+                            <div class="btn-block ms-auto" href="#collapseCartCatalog3" data-bs-toggle="collapse">
+                              <button class="btn btn-primary w-100">
+                                <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                                </svg><span>В корзину</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-5">
+                    <div class="flex-shrink-0"><img class="img-fluid img-flex-card rounded me-3" src="<?= get_stylesheet_directory_uri(); ?>/img/plug.png" alt="заглушка"></div>
+                    <div class="flex-grow-1 py-0">
+                      <div class="row">
+                        <div class="col-xl-7"><a class="d-block fw-bold" href="">Занятия по программированию в Майнкрафт</a>
+                          <p class="fs-6 mb-2">Купить абонемент или билет на занятие</p><a class="link-success redact" href="#">Редактировать</a>
+                        </div>
+                        <div class="col-xl-2">
+                          <div class="d-flex flex-column justify-content-center align-items-start">
+                            <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                            <p class="text-decoration-line-through">2500 руб</p>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="count d-flex flex-md-wrap flex-nowrap">
+                            <div class="count-content collapse pe-2" id="collapseCartCatalog8" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                              <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                            </div>
+                            <div class="btn-block ms-auto" href="#collapseCartCatalog8" data-bs-toggle="collapse">
+                              <button class="btn btn-primary w-100">
+                                <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                                </svg><span>В корзину              </span>
+                              </button>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row collapse-block d-xl-none d-flex"> 
-                  <div class="col-xxl-5 col-xl-6 collapse-children">
-                    <div class="chart-block collapse multi-collapse show" id="collapseWidthExample1">
-                      <div class="card card-body border-0"><img src="<?= get_stylesheet_directory_uri(); ?>/img/diagrama.png" alt="">
-                        <div class="position-absolute top-50 start-50 translate-middle w-100 text-center">
-                          <div class="text-accent pb-3 px-4">Find out the current price directly from the manufacturers' factories right now</div><a class="btn btn-outline-danger btn-soc border-start border-end border-1 rounded-0 active" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">get a current price </a>
+                <div class="d-lg-none d-block">
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="slider">
+                        <div class="swiper slider__images slider__images-cotalog slider__images--offer01">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-slider="1" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery-video="https://www.youtube.com/embed/WAl60Fn--SQ?si=F8-Guv6u-YSvZyjH?modestbranding=1&amp;color=white?transparent=0">
+                              <div class="youtube object-fit-contain ratio ratio-16x9">
+                                <iframe class="iframe" width="720" height="405" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=F8-Guv6u-YSvZyjH?modestbranding=1&amp;color=white" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                              <div class="overlay"></div>
+                              <div class="fullscrin" data-slider="1" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery-video="https://www.youtube.com/embed/WAl60Fn--SQ?si=F8-Guv6u-YSvZyjH?modestbranding=1&amp;color=white?transparent=0">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="2" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>
+                              <div class="fullscrin"
+                              data-slider="2" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="3" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="3" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="4" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="4" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="5" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="5"
+                              data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="6" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="6"
+                              data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="7" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="7"
+                              data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="8" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="8" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="9" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb05.png">
+                              <div class="image-4x3"><img class="d-block w-100 object-fit-fill" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="9"
+                              data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="10" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="10" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="11" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="11" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="12" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="12" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-button-prev text-white rounded"></div>
+                          <div class="swiper-button-next text-white rounded"></div>
+                        </div>
+                        <div class="slider-thumb d-flex">
+                          <div class="swiper slider-thumb__images slider-thumb__images--offer01" thumbsSlider="" style="--swiper-navigation-color:#000;--swiper-pagination-color:#000">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide youtube ratio swiper-item mb-2">
+                              <video class="iframe object-fit-cover" autoplay muted loop poster="<?= get_stylesheet_directory_uri(); ?>/img/video-thumb.png">
+                                  <source src="<?= get_stylesheet_directory_uri(); ?>/assets/video-thumb.webm" type="video/webm">
+                                  <source src="<?= get_stylesheet_directory_uri(); ?>/assets/video-thumb.mp4" type="video/mp4">
+                                </video>
+                                <!-- <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=fDU1jMa6qKpuCmjg" title="YouTube video" frameborder="0"></iframe> -->
+                              </div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg" alt="thumb"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="thumb"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="thumb"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="thumb"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="image"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>
+                              <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <ul class="list-group accordion d-none">
-                      <li class="list-group-item accordion-item" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample11" aria-expanded="true" role="button" aria-controls="collapseWidthExample11"> 
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel welded pipes</p>
-                          </div>
-                          <div class="col-5"> <span class="text-accent">$1234 </span><span class="text-success text-accent">+0.5%</span></div>
+                    <div class="row">
+                      <div class="col-12"> <a class="d-block fw-bold pb-2" href="">Занятия по программированию в Майнкрафт</a></div>
+                      <div class="col">
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                          <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                          <p class="text-decoration-line-through">2500 руб</p>
                         </div>
-                      </li>
-                      <li class="list-group-item accordion-item" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample12" aria-expanded="false" role="button" aria-controls="collapseWidthExample12"> 
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel perforated tubes</p>
+                      </div>
+                      <div class="col">
+                        <div class="count d-flex flex-md-wrap flex-nowrap">
+                          <div class="count-content collapse pe-2" id="collapseCartCatalog4" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                            <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
                           </div>
-                          <div class="col-5"> <span class="text-accent">$1234 </span><span class="text-success text-accent">+0.5% </span></div>
-                        </div>
-                      </li>
-                      <li class="list-group-item accordion-item" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample13" aria-expanded="false" role="button" aria-controls="collapseWidthExample13">
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel square / rectangular pipes</p>
+                          <div class="btn-block ms-auto" href="#collapseCartCatalog4" data-bs-toggle="collapse">
+                            <button class="btn btn-primary w-100">
+                              <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                              </svg><span>В корзину</span>
+                            </button>
                           </div>
-                          <div class="col-5"> <span class="text-accent">$1234 </span><span class="text-success text-accent">+0.5%</span></div>
                         </div>
-                      </li>
-                      <li class="list-group-item accordion-item" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample14" aria-expanded="false" role="button" aria-controls="collapseWidthExample14"> 
-                        <div class="row"> 
-                          <div class="col-7"> 
-                            <p class="mb-0">Stainless steel seamless pipes</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="slider">
+                        <div class="swiper slider__images slider__images-cotalog slider__images--offer02">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-slider="1" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery-video="https://www.youtube.com/embed/WAl60Fn--SQ?si=F8-Guv6u-YSvZyjH?modestbranding=1&amp;color=white?transparent=0">
+                              <div class="youtube object-fit-contain ratio ratio-16x9">
+                                <iframe class="iframe" width="720" height="405" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=F8-Guv6u-YSvZyjH?modestbranding=1&amp;color=white" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                              <div class="overlay"></div>
+                              <div class="fullscrin" data-slider="1" data-bs-toggle="modal" data-bs-target="#backdrop-2" data-bs-gallery-video="https://www.youtube.com/embed/WAl60Fn--SQ?si=F8-Guv6u-YSvZyjH?modestbranding=1&amp;color=white?transparent=0">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="2" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="2" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="3" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="3" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="4" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="4" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="5" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="5" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="6" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="6" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="7" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="7" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="8" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="8" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="9" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb05.png">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="image"></div>
+                              <div class="fullscrin" data-slider="9" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb05.png">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="10" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="10" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="11" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="11" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="swiper-slide" data-slider="12" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                              <div class="image-4x3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>
+                              <div class="fullscrin" data-slider="12" data-bs-toggle="modal" data-bs-target="#backdrop-3" data-bs-gallery="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg">
+                                <svg class="bi bi-aspect-ratio bg-opacity-75 text-bg-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                                  <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+                                </svg>
+                              </div>
+                            </div>
                           </div>
-                          <div class="col-5"> <span class="text-accent">&#36;1234</span><span class="text-success text-accent"> +0.5%</span></div>
+                          <div class="swiper-button-prev text-white rounded"></div>
+                          <div class="swiper-button-next text-white rounded"></div>
                         </div>
-                      </li>
-                      <li class="list-group-item"><a class="more-text text-danger py-4" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">More pipes forecast</a></li>
-                    </ul>
-                    <div class="d-flex justify-content-center pb-5"> 
-                      <div class="circle-button circle-block rounded-circle border-danger border d-flex flex-column justify-content-center align-items-center position-static" href="" role="button" data-bs-toggle="offcanvas" data-bs-target=".offcanvasReqForm" aria-controls="offcanvasReqFormLabel" aria-expanded="false" aria-label="Вывод формы">
-                        <p class="text-accent text-center">we'll stay in touch</p>
-                        <div class="d-flex align-items-center sub text-danger">
-                          <svg class="pe-2" width="24" height="20" viewBox="0 0 20 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17.6137 0.141264C17.6137 0.141264 19.3897 -0.551304 19.2411 1.13052C19.1922 1.82309 18.7483 4.2473 18.4027 6.86901L17.2187 14.6358C17.2187 14.6358 17.12 15.7737 16.2318 15.9716C15.344 16.1691 14.0119 15.279 13.765 15.0811C13.5675 14.9325 10.0649 12.7062 8.83156 11.6182C8.48596 11.3211 8.09099 10.7277 8.88093 10.0352L14.0608 5.08799C14.6528 4.49462 15.2448 3.10948 12.7781 4.7913L5.87065 9.49071C5.87065 9.49071 5.08117 9.98579 3.60141 9.54054L0.394105 8.55083C0.394105 8.55083 -0.78989 7.80889 1.23296 7.06695C6.16688 4.74193 12.2354 2.36754 17.6128 0.141264H17.6137Z" fill="currentColor"></path>
-                          </svg><span>subscribe</span>
+                        <div class="slider-thumb d-flex">
+                          <div class="swiper slider-thumb__images slider-thumb__images--offer02" thumbsSlider="" style="--swiper-navigation-color:#000;--swiper-pagination-color:#000">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide youtube ratio swiper-item mb-2">
+                                <video class="iframe object-fit-cover" autoplay muted loop poster="<?= get_stylesheet_directory_uri(); ?>/img/video-thumb.png">
+                                  <source src="<?= get_stylesheet_directory_uri(); ?>/assets/video-thumb.webm" type="video/webm">
+                                  <source src="<?= get_stylesheet_directory_uri(); ?>/assets/video-thumb.mp4" type="video/mp4">
+                                </video>
+                                <!-- <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=fDU1jMa6qKpuCmjg" title="YouTube video" frameborder="0"></iframe> -->
+                              </div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg" alt="thumb"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="thumb"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="thumb"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="thumb"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="thumb"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="image"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="image"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="image"></div>
+                                <div class="swiper-slide swiper-item mb-2"><img src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="image"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12"> <a class="d-block fw-bold pb-4" href="">Занятия по программированию в Майнкрафт</a></div>
+                      <div class="col">
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                          <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                          <p class="text-decoration-line-through">2500 руб</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="count d-flex flex-md-wrap flex-nowrap">
+                          <div class="count-content collapse pe-2" id="collapseCartCatalog5" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                            <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                          </div>
+                          <div class="btn-block ms-auto" href="#collapseCartCatalog5" data-bs-toggle="collapse">
+                            <button class="btn btn-primary w-100">
+                              <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                              </svg><span>В корзину</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="image-4x3 text-center mb-3"><img class="img-fluid rounded" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt=""></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12"> <a class="d-block fw-bold pb-4" href="">Занятия по программированию в Майнкрафт</a></div>
+                      <div class="col">
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                          <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                          <p class="text-decoration-line-through">2500 руб</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="count d-flex flex-md-wrap flex-nowrap">
+                          <div class="count-content collapse pe-2" id="collapseCartCatalog6" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                            <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                          </div>
+                          <div class="btn-block ms-auto" href="#collapseCartCatalog6" data-bs-toggle="collapse">
+                            <button class="btn btn-primary w-100">
+                              <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                              </svg><span>В корзину</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="mb-3"><img class="d-block w-100 object-fit-fill" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/thumb02.jpg" alt=""></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12"> <a class="d-block fw-bold pb-4" href="">Занятия по программированию в Майнкрафт</a></div>
+                      <div class="col">
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                          <h5 class="text-danger text-nowrap m-0">1234 руб</h5>
+                          <p class="text-decoration-line-through">2500 руб</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="count d-flex flex-md-wrap flex-nowrap">
+                          <div class="count-content collapse pe-2" id="collapseCartCatalog8" data-bs-delay="{&quot;show&quot;:0,&quot;hide&quot;:150}"><span class="change minus min d-flex justify-content-center align-items-center"><span>-</span></span>
+                            <input type="text" name="productСount" value="1" disabled=""><span class="change plus d-flex justify-content-center align-items-center"><span>+</span></span>
+                          </div>
+                          <div class="btn-block ms-auto" href="#collapseCartCatalog8" data-bs-toggle="collapse">
+                            <button class="btn btn-primary">
+                              <svg class="bi bi-basket" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
+                              </svg><span>В корзину</span>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
           </div>
         </div>
       </main>
-
+      <div class="modal fade" id="backdrop-1" tabindex="-1" role="dialog" aria-labelledby="backdrop-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+          <div class="modal-content position-relative">
+            <div class="modal-header position-absolute top-0 end-0 border-0 z-3">
+              <button class="btn-close bg-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+              <div class="carousel slide slider__images--modal carousel-fade h-100" id="carouselButtons-1">
+                <div class="carousel-inner">
+                  <div class="carousel-item bg-white active">
+                    <div class="youtube ratio ratio-16x9">
+                      <iframe class="iframe object-fit-cover" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=d8NntCiUb7Zn05KR" allow="autoplay;" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="..."></div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselButtons-1" data-bs-slide="prev"><span class="carousel-control-prev-icon text-bg-dark rounded" aria-hidden="true"></span><span class="visually-hidden">Предыдущий</span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselButtons-1" data-bs-slide="next"><span class="carousel-control-next-icon text-bg-dark rounded" aria-hidden="true"></span><span class="visually-hidden">Следующий</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="backdrop-2" tabindex="-1" role="dialog" aria-labelledby="backdrop-2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+          <div class="modal-content position-relative">
+            <div class="modal-header position-absolute top-0 end-0 border-0 z-3">
+              <button class="btn-close bg-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+              <div class="carousel slide slider__images--modal carousel-fade h-100" id="carouselButtons-2">
+                <div class="carousel-inner">
+                  <div class="carousel-item active bg-white">
+                    <div class="youtube ratio ratio-16x9">
+                      <iframe class="iframe object-fit-cover" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=d8NntCiUb7Zn05KR" allow="autoplay;" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="..."></div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselButtons-2" data-bs-slide="prev"><span class="carousel-control-prev-icon text-bg-dark rounded" aria-hidden="true"></span><span class="visually-hidden">Предыдущий</span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselButtons-2" data-bs-slide="next"><span class="carousel-control-next-icon text-bg-dark rounded" aria-hidden="true"></span><span class="visually-hidden">Следующий</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="backdrop-3" tabindex="-1" role="dialog" aria-labelledby="backdrop-3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+          <div class="modal-content position-relative">
+            <div class="modal-header position-absolute top-0 end-0 border-0 z-3">
+              <button class="btn-close bg-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+              <div class="carousel slide slider__images--modal carousel-fade h-100" id="carouselButtons-3">
+                <div class="carousel-inner">
+                  <div class="carousel-item active bg-white">
+                    <div class="youtube ratio ratio-16x9">
+                      <iframe class="iframe object-fit-cover" src="https://www.youtube.com/embed/WAl60Fn--SQ?si=d8NntCiUb7Zn05KR" allow="autoplay;" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image01.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image06.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image05.png" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image03.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image02.jpg" alt="..."></div>
+                  </div>
+                  <div class="carousel-item d-flex justify-content-center align-items-center bg-white">
+                    <div class="image-4x3"><img class="img-fluid py-md-3" src="<?= get_stylesheet_directory_uri(); ?>/img/slider/image04.jpg" alt="..."></div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselButtons-3" data-bs-slide="prev"><span class="carousel-control-prev-icon text-bg-dark rounded" aria-hidden="true"></span><span class="visually-hidden">Предыдущий</span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselButtons-3" data-bs-slide="next"><span class="carousel-control-next-icon text-bg-dark rounded" aria-hidden="true"></span><span class="visually-hidden">Следующий</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 <?php
-get_footer();
+get_footer(); // Вставляем подвал сайта
+?>

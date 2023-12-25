@@ -22,9 +22,6 @@ Loop
 }
 
 // Hide "Tagged" in loop
-.card,
-.tags-heading-none {
-  .tags-heading {
-    display: none;
-  }
+.card .tags-heading {
+  display: none;
 }
