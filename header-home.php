@@ -43,15 +43,15 @@ if( $current_user->exists() ){
   <meta name="theme-color" content="#ffffff">
   <?php wp_head(); ?>
 </head>
-
 <body <?php body_class("body-home h-100 overflow-hidden"); ?>>
 
-<?php wp_body_open(); ?>
+<?php wp_body_open();
 
+?>
     <video class="bgv" id="vp" playsinline muted loop autoplay>
         <source src="https://code.x1team.ru/wp-content/uploads/x1video.mp4" type="video/mp4">
     </video>
-    <div class="overlay-home">                                                                                                  </div>
+    <div class="overlay-home"></div>
     <header class="header py-md-2">
         <div class="navbar navbar-expand-lg absolute-top pt-0">
           <div class="container align-items-md-center align-items-start justify-content-md-end justify-content-start pt-md-2 pt-3">

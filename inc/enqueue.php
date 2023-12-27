@@ -3,7 +3,7 @@
 /**
  * Enqueue styles & scripts
  *
- * @package Bootscore 
+ * @package Bootscore
  * @version 5.3.3
  */
 
@@ -24,6 +24,9 @@ function bootscore_scripts() {
   $modificated_bootstrapJs    = date('YmdHi', filemtime(get_template_directory() . '/js/lib/bootstrap.bundle.min.js'));
   $modificated_themeJs        = date('YmdHi', filemtime(get_template_directory() . '/js/theme.js'));
 
+  wp_deregister_script( 'jquery' );
+  wp_register_script( 'jquery', ( 'https://code.jquery.com/jquery-3.7.1.min.js' ), false, null, true );
+  wp_enqueue_script( 'jquery' );
   // bootScore
   require_once 'scss-compiler.php';
   bootscore_compile_scss();
@@ -40,6 +43,7 @@ function bootscore_scripts() {
 
   // Theme JS
   wp_enqueue_script('bootscore-script', get_template_directory_uri() . '/js/theme.js', array('jquery'), $modificated_themeJs, true);
+
 
   // IE Warning
   wp_localize_script('bootscore-script', 'bootscore', array(

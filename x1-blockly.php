@@ -28,21 +28,15 @@
 <?php
 
 wp_body_open();
-
-
-
 if (  is_user_logged_in() ) {
     echo do_shortcode("[x1-blockly]");
-    echo "Авторизация DONE ------- Блоки включен )";
 } else {
     $blockly_param = '';
     if ( isset($_GET['blocklyfile'] ) ) {
         $blockly_param = '?blocklyfile=' . $_GET['blocklyfile'];
     }
-
-    // echo "Необходимо авторизоваться ------> <a href='/my-account$blockly_param'>Логин</a>";
+    echo "Необходимо авторизоваться ------> <b> <a href='/my-account$blockly_param'>Логин</a></b>";
 }
-
 
 
 wp_footer();
