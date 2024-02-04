@@ -231,7 +231,7 @@ get_header();
               </div>
             </section>
           </div>
-          <div class="swiper-slide element-animation"> 
+          <div class="swiper-slide element-animation swiper-slide-third"> 
             <section class="text-bg-dark align-items-start pt-xxl-2 pt-lg-3" id="third-section">
               <div class="container">
                 <div class="d-lg-flex d-none mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">
@@ -282,209 +282,166 @@ get_header();
               </div>
             </section>
           </div>
-          <div class="swiper-slide element-animation"> 
+          <div class="swiper-slide element-animation swiper-slide-fourth"> 
             <section class="text-bg-dark align-items-start pt-xxl-2 pt-3" id="fourth-section">
               <div class="container">
                 <div class="inner-container">
                   <div class="d-flex align-items-end justify-content-between mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">
-                    <div class="title text-danger">We work with pipes</div>
+                    <div class="title text-danger">We work with products</div>
                     <div class="block-right"><a class="p-3 text-nowrap" href="">download catalogue</a></div>
                   </div>
-                  <div class="slider d-flex justify-conten-center pb-lg-0 pb-5 pt-2">
-                    <div class="swiper slider-left" thumbsSlider="">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/01.png" alt="stainless steel welded pipes"></div>
-                          <div class="slider-desc">stainless steel welded pipes</div>
-                        </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/02.png" alt="stainless steel pipes"></div>
-                          <div class="slider-desc">stainless steel square / rectangular pipes</div>
-                        </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/03.png" alt="stainless steel seamless pipes"></div>
-                          <div class="slider-desc">stainless steel seamless pipes</div>
-                        </div>
-                        <div class="swiper-slide flex-column"> 
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/04.png" alt="stainless steel perforated tubes"></div>
-                          <div class="slider-desc">stainless steel perforated tubes</div>
-                        </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/06.png" alt="stainless steel decorative tubes"></div>
-                          <div class="slider-desc">stainless steel decorative tubes for shower cabins</div>
-                        </div>
-                        <div class="swiper-slide flex-column">
-                          <div class="slider-img"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/05.png" alt="stainless steel slot tubes"></div>
-                          <div class="slider-desc">stainless steel slot tubes / steel metal structure</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper slider-right">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-xl-6"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Diameter</p>
-                                  <div class="row">
-                                    <div class="col check">6.0 – 375 Mm </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Pipe length</p>
-                                  <div class="row"> 
-                                    <div class="col-6 check pe-0">4000 Mm</div>
-                                    <div class="col-6 check pe-0">6000 Mm</div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Surface</p>
-                                  <div class="row">
-                                    <div class="col-6 check pe-0">GRIT 320 <span>(ground)</span></div>
-                                    <div class="col-6 check pe-0">2B</div>
-                                  </div>
-                                  <div class="row"> 
-                                    <div class="col-6 check pe-0">GRIT 600 <span>(polished)</span></div>
-                                  </div>
+                  <div class="row cards-pipes">
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/01.png" alt="stainless steel welded pipes">
+                      <div class="w-100">
+                        <div class="card-desc">stainless steel welded pipes</div>
+                        <div class="content">
+                          <div class="col"> 
+                            <div class="row">
+                              <div class="col-4 mb-2">
+                                <p class="text-default mb-0">Diameter</p>
+                                <div class="row">
+                                  <div class="col check">6.0 – 375 Mm </div>
                                 </div>
                               </div>
-                              <div class="col-xl-6">
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Wall thickness</p>
-                                  <div class="row"> 
-                                    <div class="col check pe-0">0.5 – 4 Mm </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">steel standard</p>
-                                  <div class="row">
-                                    <div class="col-6 check pe-0">AISI 201</div>
-                                    <div class="col-6 check pe-0">AISI 304</div>
-                                    <div class="col-6 check pe-0">AISI 321</div>
-                                    <div class="col-6 check pe-0">AISI 316L</div>
-                                    <div class="col-6 check pe-0">AISI 430</div>
-                                  </div>
+                              <div class="col-8 mb-2">
+                                <p class="text-default mb-0">Wall Thickness</p>
+                                <div class="row">
+                                  <div class="col check">0.5 – 4 Mm </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel square / rectangular pipes</p>
-                                  <div class="row">
-                                    <div class="col check">aSTM 554 </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Pipe length</p>
-                                  <div class="row"> 
-                                    <div class="col check">MT304, MT304L, MT316L, MT430, Grade 201, 202 as per Mill's STD</div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Square tubes diameter</p>
-                                  <div class="row">
-                                    <div class="col check pe-0">12.7x12.7 – 150x150 Mm</div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <div class="row">
-                                    <div class="col">
-                                      <p class="text-default mb-0">Rectangular tubes diameter</p>
-                                      <div class="row"> 
-                                        <div class="col check pe-0">10x20 – 100x200 Mm </div>
-                                      </div>
-                                    </div>
-                                    <div class="col">
-                                      <p class="text-default mb-0">Wall thickness</p>
-                                      <div class="row">
-                                        <div class="col check pe-0">0.7 – 6.5 Mm</div>
-                                      </div>
-                                    </div>
-                                  </div>
+                            <div class="row">
+                              <div class="col-4 mb-2">
+                                <p class="text-default mb-0">Pipe length</p>
+                                <div class="col check pe-0">4000 Mm</div>
+                                <div class="col check pe-0">6000 Mm</div>
+                              </div>
+                              <div class="col-8 mb-2">
+                                <p class="text-default mb-0">Surface</p>
+                                <div class="row">
+                                  <div class="col-4 check pe-0">GRIT 320 <span>(ground)</span></div>
+                                  <div class="col-4 check pe-0">GRIT 600 <span>(polished)</span></div>
+                                  <div class="col-2 check pe-0">2B</div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel seamless pipes</p>
-                                  <div class="row">
-                                    <div class="col-6 check pe-0">ASTM A312 </div>
-                                    <div class="col-6 check pe-0">GOST 9941</div>
-                                    <div class="col-12 check">Wall thicknesses from 0.5 up to 68 mm</div>
-                                    <div class="col-12 check pe-0">Outer diameters is from 6 up to 914 mm for seamless pipe (0.24 up to 36 inches)</div>
-                                  </div>
+                            <div class="col mb-2">
+                              <p class="text-default mb-0">Steel Standart</p>
+                              <div class="row">
+                                <div class="col-4">
+                                  <div class="check pe-0">AISI 201</div>
+                                  <div class="check pe-0">AISI 321</div>
+                                  <div class="check pe-0">AISI 430</div>
                                 </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel perforated tubes</p>
-                                  <div class="row">
-                                    <div class="col check pe-0">Any groove depth and width is possible on customer request </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">stainless steel decorative tubes for shower cabins</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">Super polish, We guaranty highest quality of the surface, standart sizes </div>
-                                    <div class="col-12 check pe-0">can customize Your size surface types: Black matt, Black Titanium, Gold, Bronze, Mirror 800 Grit, Brushed 320 Grit etc.</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide flex-column align-items-start justify-content-start"> 
-                          <div class="d-flex justify-content-between align-items-start p-md-3 p-2"> 
-                            <div class="content row">
-                              <div class="col-12"> 
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Stainless steel slot tubes</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">Any groove depth and width is possible on customer request  </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-2">
-                                  <p class="text-default mb-0">Steel metal structure</p>
-                                  <div class="row">
-                                    <div class="col-12 check pe-0">Wall-mounted handrail included (package contents: handrail 50.8 x 1.2 x 6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Decorative handrails included (set contents: decorative handrail 25x1.2x6 m - 1 pc., bracket - 6 pcs., plug - 2 pcs., boat bed - 6 pcs., flat bed - 6 pcs.)</div>
-                                    <div class="col-12 check">Grade 201, surface 600 grit</div>
-                                    <div class="col-12 check pe-0">Horizontal bars included plugs(109-014) 2 pcs. brackets(105-100) 6 pcs. AISI 201,38x1.2x6000</div>
-                                  </div>
+                                <div class="col-8">
+                                  <div class="check pe-0">AISI 304</div>
+                                  <div class="check pe-0">AISI 316L</div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="slider-overlay"></div>
+                    </article>
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/01.png" alt="stainless steel decorative tubes for shower cabins">
+                      <div class="w-100">
+                        <div class="card-desc">stainless steel decorative tubes for shower cabins</div>
+                        <div class="content">
+                          <div class="col"> 
+                            <div class="check pe-0">Super polish, We guaranty highest quality of the surface, standart sizes </div>
+                            <div class="check pe-0">Can customize Your size surface types: Black matt, Black Titanium, Gold, Bronze, Mirror 800 Grit, Brushed 320 Grit etc.</div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/02.png" alt="stainless steel square / rectangular pipes">
+                      <div class="w-100">
+                        <div class="card-desc">stainless steel square / rectangular pipes</div>
+                        <div class="content">
+                          <div class="col"> 
+                            <div class="row">
+                              <div class="col-4 mb-2">
+                                <div class="check pe-0">ASTM 554</div>
+                              </div>
+                              <div class="col mb-2">
+                                <div class="check pe-0">MT304, MT304L, MT316L, MT430, Grade 201, 202 As Per Mill's STD</div>
+                              </div>
+                            </div> 
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/05.png" alt="stainless steel slot tubes">
+                      <div class="w-100">
+                        <div class="card-desc">stainless steel slot tubes</div>
+                        <div class="content">
+                          <div class="col"> 
+                            <div class="check pe-0">Any Groove Depth And Width Is Possible On Customer Request </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/03.png" alt="stainless steel seamless pipes">
+                      <div class="w-100">
+                        <div class="card-desc">stainless steel seamless pipes</div>
+                        <div class="content">
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-4 mb-2">
+                                <div class="check pe-0">ASTM A312</div>
+                              </div>
+                              <div class="col mb-2">
+                                <div class="check pe-0">GOST 9941</div>
+                              </div>
+                            </div> 
+                            <div class="check pe-0">Wall Thicknesses From 0.5 Up To 68 Mm</div>
+                            <div class="check pe-0">Outer Diameters Is From 6 Up To 914 Mm For Seamless Pipe (0.24 Up To 36 Inches)</div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/04.png" alt="stainless steel perforated tubes">
+                      <div class="w-100">
+                        <div class="card-desc">stainless steel perforated tubes</div>
+                        <div class="content">
+                          <div class="col"> 
+                            <div class="check pe-0">Any Groove Depth And Width Is Possible On Customer Request </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/07.png" alt="decorative railings">
+                      <div class="w-100">
+                        <div class="card-desc">decorative railings</div>
+                        <div class="content">
+                          <div class="col"> 
+                            <div class="check pe-0">Decorative Rallings Included (Set Composition: Decorative Handrait 6 M - 1 Pc., Bent Bracket - 6 Pcs., Stamped Plug - 2 Pcs., Boat Saddle - 6 Pcs., Flat Saddle - 6 Pcs.). Grade 201, Size 25x1.2, Surface 600 Grit</div>
+                            <div class="check pe-0">Steel Metal Construction: Wall-Mounted Handrail Included (Set Composition: Handrail 6 M - 1 Pc., Bent Bracket - 6 Pcs., Stamped Plug - 2 Pcs.). Grade 201, Size 50.8x1.2, Surface 600 Grit.</div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="d-flex position-relative card col-xl-6">
+                      <img class="pipes-img"src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/08.png" alt="profile for Shower Enclosures">
+                      <div class="w-100">
+                        <div class="card-desc">profile for Shower Enclosures</div>
+                        <div class="content">
+                          <div class="col">
+                            <div class="check pe-0">U-Shaped Extruded Aluminium Profile Chemical Polishing</div>
+                            <div class="check pe-0">Finish: BLC - Black Mat, PC - Polished Chrome Zinc, Al - Polished Aluminium, AL - Anodised Aluminium, Bronze, Gold</div>
+                            <div class="check pe-0">View: Threshold, Plug, Magnet Profile, U-Shaped</div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
                   </div>
                 </div>
               </div>
@@ -493,7 +450,7 @@ get_header();
               </div>
             </section>
           </div>
-          <div class="swiper-slide element-animation"> 
+          <div class="swiper-slide element-animation swiper-slide-fifth"> 
             <section class="pt-xxl-4 pt-3" id="fifth-section">
               <div class="container position-relative h-100">
                 <div class="d-md-flex mb-3 pt-md-0 pt-xxl-3 pt-3">
