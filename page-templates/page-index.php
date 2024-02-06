@@ -417,7 +417,7 @@ get_header();
                       </div>
                     </article>
                     <article class="d-flex position-relative card col-xl-6">
-                      <img class="pipes-img" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/07.png" alt="decorative railings">
+                      <img class="pipes-img img-big" src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/07.png" alt="decorative railings">
                       <div class="w-100">
                         <div class="card-desc">decorative railings</div>
                         <div class="content">

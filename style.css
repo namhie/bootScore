@@ -864,69 +864,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 #fourth-section .pipes-img img {
-	-o-object-fit: cover;
-	object-fit: cover;
+	-o-object-fit: contain;
+	object-fit: contain;
 	height: 100%;
 }
-/* #fourth-section .slider {
-	height: 100%;
-	overflow-y: scroll;
-}
-
-#fourth-section .slider .swiper {
-	height: 409px;
-	max-height: 100%;
-	min-height: 100%;
-} */
-
-/* #fourth-section .slider .swiper.slider-left {
-	width: 98%;
-}
-
-#fourth-section .slider .swiper.slider-left .swiper-slide {
-	-webkit-box-pack: start;
-	-ms-flex-pack: start;
-	justify-content: start;
-	max-height: 204px;
-	padding: 1px 20px;
-}
-
-#fourth-section .slider .swiper.slider-left .swiper-slide .slider-img {
-	padding-bottom: 12px;
-	height: 104px;
-	max-height: 100%;
-	max-width: 220px;
-}
-
-#fourth-section .slider .swiper.slider-left .swiper-slide .slider-img img {
-	-o-object-fit: cover;
-	object-fit: cover;
-	height: 100%;
-} */
-
-/* #fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active, #fourth-section .slider .swiper.slider-left .swiper-slide.swiper-slide-thumb-active .slider-desc {
-	border-color: var(--bs-danger);
-	cursor: url(/wp-content/themes/bootScore/img/svg/cursor-hover.svg),auto!important;
-}
-
-#fourth-section .slider .swiper.slider-left .swiper-slide .slider-desc {
-	width: 100%;
-	padding: 16px 1px;
-	font-weight: 500;
-	font-size: calc(16px + .2083333333vw);
-	text-transform: uppercase;
-	border-top: 1px solid var(--secondary);
-	line-height: 1.1;
-}
-
-#fourth-section .slider .swiper.slider-right {
-	width: 50%;
-} */
-
-/* #fourth-section .slider .swiper.slider-right .swiper-slide {
-	overflow-y: auto;
-	overflow-x: hidden;
-} */
 
 #fourth-section .card {
 	flex-direction: row;
@@ -956,6 +897,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	margin-left: -32px;
 	max-width: 300px;
     max-height: 127px;
+}
+#fourth-section .img-big {
+	max-height: 142px;
 }
 .swiper-slide.swiper-slide-fourth {
 	height: auto!important;
