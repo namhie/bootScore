@@ -29,7 +29,7 @@
   <link rel="mask-icon" href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/safari-pinned-tab.svg" color="#0d6efd">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
   <link href="<?= get_stylesheet_directory_uri(); ?>/libs/bootstrap/bootstrap.min.css" rel="stylesheet" media="all">
-  <link href="<?= get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet" media="all">
+  <link href="<?= get_stylesheet_directory_uri(); ?>/css/style.min.css" rel="stylesheet" media="all">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <?php wp_head(); ?>
