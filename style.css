@@ -894,9 +894,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	line-height: 1.1;
 }
 #fourth-section .inner-container .cards-pipes .pipes-img {
-	-o-object-fit: contain;
-	object-fit: contain;
-	height: 100%;
 	margin-left: -32px;
 	max-width: 300px;
     max-height: 127px;
