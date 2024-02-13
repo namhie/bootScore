@@ -849,6 +849,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	line-height: 1;
 }
 
+#fourth-section .cards-pipes {
+	width: 100%;
+    margin: 0;
+    padding-top: 1rem;
+}
+
 #fourth-section .block-right {
 	font-family: Aneliza;
 	font-weight: 700;
@@ -863,7 +869,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	opacity: .6;
 }
 
-#fourth-section .card {
+#fourth-section .cards-pipes .card {
 	flex-direction: row;
 	padding-bottom: 1rem;
 	font-size: 18px;
@@ -874,11 +880,11 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	overflow: hidden;
 }
 
-#fourth-section .card:hover {
+#fourth-section .cards-pipes .card:hover {
 	transform: none;
 }
 
-#fourth-section .card-desc {
+#fourth-section .cards-pipes .card-desc {
 	width: 100%;
 	padding: 16px 1px;
 	font-weight: 500;
@@ -887,7 +893,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	border-top: 1px solid var(--secondary);
 	line-height: 1.1;
 }
-#fourth-section .pipes-img {
+#fourth-section .cards-pipes .pipes-img {
 	-o-object-fit: contain;
 	object-fit: contain;
 	height: 100%;
@@ -895,7 +901,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	max-width: 300px;
     max-height: 127px;
 }
-#fourth-section .img-big {
+#fourth-section .cards-pipes .img-big {
 	max-height: 142px;
 }
 .swiper-slide.swiper-slide-fourth {
@@ -915,10 +921,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 @media (max-width: 520px) {
-	#fourth-section .card {
+	#fourth-section .cards-pipes .card {
 		flex-direction: column;
 	}
-	#fourth-section .card img {
+	#fourth-section .cards-pipes .card img {
 		margin: -1rem auto 1rem;
 	}
 } 
