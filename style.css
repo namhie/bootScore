@@ -52,6 +52,7 @@ body {
 
 img {
 	width: 100%;
+	object-fit: contain;
 }
 
 .border-default {
@@ -896,7 +897,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 #fourth-section .inner-container .cards-pipes .pipes-img {
 	margin-left: -32px;
 	max-width: 300px;
-    max-height: 127px;
+    max-height: 110px;
 }
 #fourth-section .inner-container .cards-pipes .img-big {
 	max-height: 142px;
