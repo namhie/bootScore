@@ -438,7 +438,6 @@ get_header();
                             <div class="check pe-0">Finish: BLC - Black Mat, PC - Polished Chrome Zinc, Al - Polished Aluminium, AL - Anodised Aluminium, Bronze, Gold</div>
                             <div class="check pe-0">View: Threshold, Plug, Magnet Profile, U-Shaped</div>
                           </div>
-                          </div>
                         </div>
                       </div>
                     </article>
