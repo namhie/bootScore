@@ -283,9 +283,9 @@ get_header();
             </section>
           </div>
           <div class="swiper-slide element-animation swiper-slide-fourth"> 
-            <section class="text-bg-dark align-items-start pt-xxl-2 pt-3" id="fourth-section">
+            <section class="text-bg-dark align-items-start pt-xxl-2 pt-3 mb-xxl-5 pb-xxl-5" id="fourth-section">
               <div class="container">
-                <div class="inner-container mb-5">
+                <div class="inner-container mb-xxl-5">
                   <div class="d-flex align-items-end justify-content-between mb-3 mb-md-0 mb-xxl-2 pt-md-0 pt-xxl-2 pt-3">
                     <div class="title text-danger">We work with products</div>
                     <div class="block-right"><a class="p-3 text-nowrap" href="">download catalogue</a></div>
@@ -576,6 +576,9 @@ get_header();
                 </div>
               </div>
             </section>
+          </div>
+          <div class="swiper-slide element-animation">
+            <section class="slide-six"></section>
           </div>
         </div>
       </main>
