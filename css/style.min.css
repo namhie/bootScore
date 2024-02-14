@@ -1244,7 +1244,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 }
 
-@media (max-width:1030px) {
+@media (max-width:992px) {
 	
 	.wrapper {
 		height: 100%;
