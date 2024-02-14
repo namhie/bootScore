@@ -577,9 +577,6 @@ get_header();
               </div>
             </section>
           </div>
-          <div class="swiper-slide element-animation">
-            <section class="slide-six"></section>
-          </div>
         </div>
       </main>
 

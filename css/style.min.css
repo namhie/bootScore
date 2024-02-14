@@ -637,9 +637,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		transform: translateX(calc(-100% - 20px));
 	}
 }
-.slide-six {
+/* .slide-six {
 	height: 200px;
-}
+} */
 .text-muted {
 	font-family: Aneliza,sans-serif;
 	font-weight: 400;
@@ -1261,9 +1261,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		flex-direction: column;
 		height: 100%;
 	}
-	.slide-six {
+	/* .slide-six {
 		height: 0;
-	}
+	} */
 	.slider {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
