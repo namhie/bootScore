@@ -1574,13 +1574,13 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	}
 
 	#second-section {
-		min-height: 98vh;
+		min-height: 100vh;
 		margin-top: -20px;
 		/* border-top: 1px solid var(--default); */
 	}
 
 	#second-section ul {
-		top: 270px;
+		top: 160px;
 	}
 
 	.image-second {
@@ -1607,7 +1607,10 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 		font-size: 14px;
 		line-height: 1.2;
 	}
-
+	.swiper-slide.swiper-slide-fourth.element-animation {
+		opacity: 1;
+		transition: .25s;
+	}
 	#fifth-section .title {
 		line-height: 1.1;
 	}

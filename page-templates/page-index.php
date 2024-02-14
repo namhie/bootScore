@@ -320,9 +320,9 @@ get_header();
                               <div class="col-8 mb-2">
                                 <p class="text-default mb-0">Surface</p>
                                 <div class="row">
-                                  <div class="col-4 check pe-0">GRIT 320 <span>(ground)</span></div>
-                                  <div class="col-4 check pe-0">GRIT 600 <span>(polished)</span></div>
-                                  <div class="col-2 check pe-0">2B</div>
+                                  <div class="col-md-4 check pe-0">GRIT 320 <span>(ground)</span></div>
+                                  <div class="col-md-4 check pe-0">GRIT 600 <span>(polished)</span></div>
+                                  <div class="col-md-2 check pe-0">2B</div>
                                 </div>
                               </div>
                             </div>
