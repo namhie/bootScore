@@ -1242,9 +1242,6 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	.image-second {
 		left: -34.277rem;
 	}
-}
-
-@media (max-width:992px) {
 	
 	.wrapper {
 		height: 100%;
