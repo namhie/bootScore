@@ -1002,7 +1002,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 	-ms-transform: none;
 	transform: none;
 }
-
+.swiper-slide.swiper-slide-six {
+	height: 0!important;
+}
 .more-text {
 	font-weight: 700;
 	text-decoration: underline;
